@@ -1,0 +1,1501 @@
+Age,Experience,Education,Job Role,Location,Skills,Salary
+50,24.0,Bachelors,Manager,Remote,C++,135236
+36,14.0,Bachelors,Manager,Austin,Java,112366
+29,7.0,PhD,Manager,San Francisco,Python,115331
+42,17.0,Masters,Developer,San Francisco,C++,133692
+40,18.0,Bachelors,Developer,New York,SQL,114773
+44,20.0,Masters,Data Scientist,New York,AWS,140572
+32,8.0,Bachelors,Developer,San Francisco,Java,85692
+32,10.0,Bachelors,Manager,New York,Python,95657
+45,23.0,Masters,Manager,Remote,SQL,147583
+57,32.0,Bachelors,Developer,San Francisco,AWS,173258
+45,23.0,Bachelors,Director,New York,SQL,188870
+24,0.0,PhD,Data Scientist,Remote,AWS,43093
+43,18.0,PhD,Director,New York,C++,234390
+23,1.0,Masters,Data Scientist,New York,SQL,46918
+45,22.0,Masters,Director,New York,SQL,215131
+51,28.0,Masters,Developer,San Francisco,SQL,181399
+59,34.0,Bachelors,Data Scientist,Austin,C++,162820
+23,1.0,Bachelors,Data Scientist,New York,Python,52787
+42,19.0,Bachelors,Data Scientist,Remote,AWS,96413
+54,32.0,Bachelors,Manager,San Francisco,SQL,228962
+33,11.0,Masters,Manager,San Francisco,C++,119857
+43,21.0,Bachelors,Director,Remote,Python,158162
+46,20.0,PhD,Developer,New York,AWS,154776
+48,26.0,PhD,Manager,Austin,C++,218712
+49,23.0,Masters,Data Scientist,New York,AWS,165776
+37,12.0,Masters,Manager,Remote,SQL,102097
+36,13.0,PhD,Developer,San Francisco,Python,130452
+24,1.0,Bachelors,Manager,Austin,C++,47557
+58,35.0,Masters,Data Scientist,San Francisco,Python,231498
+28,5.0,Bachelors,Director,Remote,SQL,80411
+42,19.0,Masters,Data Scientist,New York,Python,142880
+30,7.0,Bachelors,Developer,Austin,Python,83031
+39,16.0,PhD,Director,San Francisco,Java,221352
+25,0.0,PhD,Manager,San Francisco,Python,48174
+46,24.0,Bachelors,Manager,San Francisco,AWS,195244
+35,11.0,Bachelors,Manager,New York,C++,113609
+30,4.0,PhD,Director,Austin,Java,74385
+47,23.0,Bachelors,Data Scientist,New York,C++,137159
+23,0.0,PhD,Director,New York,C++,44809
+41,19.0,Masters,Director,New York,SQL,200972
+49,27.0,Bachelors,Developer,Remote,SQL,125756
+28,6.0,Bachelors,Director,Remote,Java,81977
+29,6.0,Bachelors,Manager,Remote,SQL,64530
+56,31.0,Masters,Data Scientist,Austin,SQL,169570
+35,12.0,Bachelors,Data Scientist,New York,SQL,96774
+38,13.0,Masters,Data Scientist,New York,C++,102666
+57,32.0,Bachelors,Manager,Remote,Java,166601
+25,1.0,Masters,Manager,New York,C++,62830
+23,0.0,PhD,Manager,New York,AWS,42230
+27,2.0,PhD,Manager,San Francisco,C++,73656
+25,0.0,Bachelors,Manager,New York,AWS,55456
+50,27.0,PhD,Director,San Francisco,Python,332856
+39,16.0,Masters,Manager,New York,Python,143524
+47,23.0,Masters,Manager,Austin,AWS,170079
+55,33.0,PhD,Manager,Remote,AWS,233171
+31,6.0,Bachelors,Manager,San Francisco,C++,79070
+57,34.0,Bachelors,Data Scientist,Remote,AWS,150861
+35,11.0,PhD,Manager,San Francisco,Java,129439
+52,29.0,Bachelors,Director,San Francisco,Python,246330
+36,11.0,PhD,Director,San Francisco,Python,164252
+29,4.0,PhD,Director,Austin,AWS,84778
+35,9.0,Bachelors,Developer,New York,SQL,78392
+44,22.0,PhD,Data Scientist,San Francisco,SQL,190582
+42,,Bachelors,Manager,Austin,AWS,109133
+37,13.0,Masters,Developer,San Francisco,Java,115502
+39,16.0,Masters,Manager,New York,SQL,147868
+45,21.0,PhD,Developer,San Francisco,AWS,174393
+47,22.0,Bachelors,Developer,Austin,Java,118441
+46,20.0,Bachelors,Director,New York,Java,179991
+50,24.0,Masters,Director,Austin,C++,203101
+36,10.0,Masters,Developer,New York,Java,98848
+22,0.0,Masters,Director,New York,SQL,50784
+46,21.0,Bachelors,Developer,Remote,SQL,105871
+28,5.0,Bachelors,Data Scientist,Remote,AWS,64807
+30,7.0,Bachelors,Director,Remote,AWS,83870
+45,21.0,PhD,Director,New York,Java,253241
+22,0.0,Bachelors,Director,San Francisco,Python,52231
+29,7.0,Bachelors,Data Scientist,Austin,C++,68421
+45,21.0,PhD,Developer,Austin,Python,140186
+32,8.0,Bachelors,Manager,Austin,Java,86396
+38,13.0,PhD,Director,Remote,Java,144044
+29,6.0,Masters,Developer,New York,Python,80777
+56,32.0,PhD,Data Scientist,Remote,C++,194604
+56,32.0,Bachelors,Manager,San Francisco,Python,221957
+54,28.0,Bachelors,Director,New York,AWS,234315
+26,0.0,Masters,Data Scientist,Austin,SQL,55986
+49,27.0,PhD,Data Scientist,Remote,AWS,172520
+28,3.0,Masters,Manager,Remote,SQL,66936
+30,8.0,Bachelors,Developer,San Francisco,Java,80341
+29,3.0,Masters,Director,San Francisco,C++,80237
+33,10.0,Masters,Director,Remote,Python,105417
+55,29.0,Masters,Developer,San Francisco,C++,187413
+54,29.0,Masters,Developer,Austin,Python,167248
+44,18.0,PhD,Developer,San Francisco,AWS,157994
+45,20.0,Masters,Manager,San Francisco,AWS,178936
+58,33.0,Bachelors,Manager,Remote,Python,172624
+56,31.0,Bachelors,Director,Remote,C++,200303
+43,18.0,Bachelors,Manager,New York,Python,144976
+48,23.0,Bachelors,Data Scientist,New York,Java,141809
+56,33.0,Bachelors,Director,Remote,AWS,207137
+22,0.0,Bachelors,Manager,San Francisco,Java,46749
+56,32.0,Bachelors,Developer,San Francisco,AWS,175560
+58,36.0,Bachelors,Data Scientist,New York,AWS,192772
+35,10.0,PhD,Developer,New York,SQL,106275
+24,1.0,PhD,Director,New York,Java,64307
+22,0.0,Bachelors,Developer,Austin,Java,63637
+26,3.0,PhD,Manager,Austin,SQL,61590
+47,22.0,Masters,Manager,New York,C++,186490
+35,12.0,Bachelors,Director,San Francisco,Java,134732
+48,25.0,Bachelors,Developer,New York,Python,130777
+30,5.0,Masters,Director,Austin,SQL,88648
+36,13.0,Masters,Developer,San Francisco,Java,112946
+36,12.0,Masters,Data Scientist,Austin,C++,101519
+47,23.0,Bachelors,Manager,San Francisco,Java,167083
+34,11.0,Bachelors,Director,Austin,AWS,108298
+53,27.0,Bachelors,Data Scientist,San Francisco,Python,160434
+53,28.0,Bachelors,Data Scientist,San Francisco,SQL,180936
+25,1.0,Bachelors,Director,San Francisco,AWS,62743
+51,25.0,Bachelors,Director,San Francisco,C++,222095
+58,35.0,PhD,Data Scientist,Remote,AWS,198242
+44,18.0,PhD,Developer,Austin,AWS,131970
+36,14.0,Bachelors,Data Scientist,Austin,C++,101662
+50,,PhD,Director,Remote,AWS,230865
+57,34.0,Bachelors,Data Scientist,San Francisco,SQL,191201
+34,9.0,Bachelors,Developer,San Francisco,Java,79572
+53,30.0,Bachelors,Manager,Austin,AWS,180335
+28,3.0,Masters,Manager,Remote,SQL,61759
+43,20.0,PhD,Data Scientist,San Francisco,Java,177060
+49,23.0,Masters,Developer,San Francisco,Java,158513
+23,0.0,Bachelors,Manager,San Francisco,AWS,45609
+27,1.0,Masters,Data Scientist,New York,SQL,47534
+49,27.0,Bachelors,Data Scientist,Remote,AWS,137038
+49,24.0,PhD,Developer,San Francisco,C++,197712
+41,15.0,Masters,Director,New York,Java,167538
+51,29.0,Bachelors,Data Scientist,Remote,AWS,137391
+32,7.0,Masters,Director,San Francisco,Java,115273
+49,26.0,Masters,Director,Austin,SQL,219263
+46,24.0,Bachelors,Manager,New York,Python,168865
+54,30.0,Masters,Director,New York,AWS,283477
+22,0.0,Bachelors,Developer,San Francisco,AWS,56966
+48,26.0,Masters,Manager,San Francisco,Java,220619
+34,9.0,PhD,Manager,New York,SQL,114693
+24,1.0,PhD,Manager,Austin,C++,57035
+27,3.0,Masters,Data Scientist,Austin,SQL,65161
+29,3.0,Masters,Data Scientist,Remote,AWS,63373
+48,22.0,Bachelors,Director,San Francisco,C++,207204
+30,8.0,Masters,Manager,Austin,SQL,86187
+58,33.0,Bachelors,Manager,Remote,Python,178591
+54,29.0,Bachelors,Developer,Austin,Java,137142
+45,19.0,Bachelors,Director,San Francisco,SQL,179821
+36,12.0,Bachelors,Developer,Remote,SQL,86211
+53,30.0,Masters,Director,Remote,Python,222692
+53,29.0,Bachelors,Director,Remote,AWS,183069
+45,22.0,Masters,Data Scientist,Austin,Java,132117
+33,7.0,Bachelors,Data Scientist,San Francisco,SQL,79122
+23,0.0,Bachelors,Developer,Remote,C++,52892
+24,0.0,Masters,Director,New York,SQL,45680
+58,36.0,Bachelors,Manager,San Francisco,Java,245357
+38,16.0,Bachelors,Data Scientist,New York,SQL,107277
+23,0.0,Masters,Manager,New York,Python,54910
+23,0.0,Bachelors,Developer,Remote,SQL,58587
+49,25.0,PhD,Data Scientist,Remote,SQL,169421
+44,19.0,Bachelors,Data Scientist,Austin,C++,117525
+58,36.0,Bachelors,Director,Austin,Python,248713
+53,31.0,Masters,Developer,Austin,Python,151241
+54,29.0,Bachelors,Director,San Francisco,SQL,254466
+22,0.0,Bachelors,Data Scientist,Austin,C++,47520
+40,18.0,Bachelors,Developer,New York,SQL,119202
+23,0.0,Bachelors,Data Scientist,Austin,SQL,37312
+47,21.0,PhD,Developer,Remote,Java,136015
+53,27.0,Bachelors,Data Scientist,Austin,Java,138028
+27,2.0,Masters,Manager,San Francisco,C++,68696
+53,27.0,PhD,Manager,San Francisco,AWS,278870
+25,3.0,Bachelors,Director,New York,Java,64796
+32,10.0,PhD,Manager,San Francisco,AWS,127481
+38,13.0,Bachelors,Data Scientist,Austin,Python,94052
+59,34.0,PhD,Data Scientist,Remote,Java,210139
+45,20.0,Bachelors,Manager,San Francisco,Java,159501
+26,2.0,Masters,Director,New York,C++,59156
+55,29.0,Bachelors,Manager,Austin,AWS,168771
+27,2.0,Bachelors,Developer,New York,Java,58213
+43,20.0,Masters,Developer,San Francisco,Java,144801
+32,9.0,Masters,Developer,San Francisco,C++,88600
+37,15.0,Bachelors,Manager,New York,C++,122471
+54,28.0,Bachelors,Manager,Austin,AWS,162692
+30,5.0,Masters,Manager,San Francisco,Python,88466
+27,4.0,Masters,Developer,Remote,Python,58786
+37,,PhD,Director,San Francisco,SQL,163506
+50,28.0,Masters,Data Scientist,Austin,Java,158414
+24,0.0,PhD,Manager,San Francisco,AWS,41970
+41,15.0,Masters,Director,New York,Java,162323
+57,31.0,Bachelors,Data Scientist,San Francisco,AWS,189131
+40,16.0,Bachelors,Data Scientist,San Francisco,AWS,112594
+47,21.0,Masters,Data Scientist,Austin,AWS,128342
+24,2.0,Masters,Director,New York,Java,58889
+40,18.0,Bachelors,Director,Austin,C++,146747
+41,17.0,Bachelors,Developer,San Francisco,Java,125727
+53,28.0,PhD,Director,Remote,AWS,253457
+28,5.0,Masters,Director,San Francisco,SQL,92454
+54,29.0,Bachelors,Director,Austin,Python,202623
+39,13.0,Bachelors,Data Scientist,Remote,AWS,88302
+22,0.0,Bachelors,Manager,Austin,SQL,56145
+32,8.0,Bachelors,Developer,Austin,C++,74715
+49,25.0,Bachelors,Manager,New York,AWS,186659
+46,23.0,Bachelors,Manager,Remote,SQL,143237
+44,22.0,Masters,Director,San Francisco,AWS,234896
+52,29.0,Bachelors,Developer,Austin,Java,136471
+51,25.0,PhD,Manager,San Francisco,SQL,262905
+56,34.0,PhD,Manager,New York,Java,307727
+28,4.0,Bachelors,Developer,New York,Java,71445
+37,14.0,Masters,Director,Remote,SQL,141663
+47,22.0,Bachelors,Manager,New York,Python,159859
+23,0.0,PhD,Data Scientist,New York,SQL,51760
+22,0.0,Bachelors,Manager,San Francisco,Python,54900
+33,8.0,Masters,Data Scientist,New York,AWS,91854
+26,3.0,Masters,Director,New York,AWS,77130
+58,35.0,Bachelors,Manager,Austin,SQL,190333
+53,28.0,Bachelors,Developer,New York,AWS,146558
+30,7.0,Masters,Developer,Austin,C++,72724
+56,30.0,Masters,Manager,New York,Java,237512
+40,18.0,Bachelors,Director,New York,Java,160463
+37,11.0,Masters,Director,Remote,Python,121768
+24,0.0,Bachelors,Developer,Remote,AWS,53899
+41,18.0,Masters,Manager,Austin,Python,146491
+45,23.0,Bachelors,Director,New York,Java,194392
+54,,PhD,Developer,San Francisco,Java,231712
+45,21.0,Bachelors,Data Scientist,Remote,AWS,113865
+32,9.0,Bachelors,Manager,San Francisco,C++,100415
+29,6.0,Bachelors,Data Scientist,Remote,C++,69298
+57,34.0,Bachelors,Data Scientist,Remote,AWS,149597
+59,37.0,Masters,Director,New York,AWS,338388
+41,18.0,Bachelors,Director,Remote,Python,142648
+56,34.0,PhD,Director,San Francisco,AWS,402187
+46,21.0,Bachelors,Manager,Remote,C++,137115
+56,32.0,Bachelors,Data Scientist,Austin,AWS,160509
+46,24.0,Bachelors,Manager,New York,Python,166134
+50,25.0,Bachelors,Director,New York,Python,213919
+39,17.0,Bachelors,Data Scientist,Austin,Python,110607
+39,17.0,Bachelors,Manager,Austin,Python,115224
+23,0.0,Bachelors,Manager,Austin,SQL,50210
+56,,Bachelors,Developer,Remote,AWS,130607
+37,11.0,Masters,Manager,New York,Java,113300
+57,35.0,Masters,Director,Austin,AWS,277262
+54,31.0,Bachelors,Manager,Remote,SQL,164179
+25,0.0,Bachelors,Data Scientist,Austin,Python,56872
+54,31.0,PhD,Manager,San Francisco,SQL,300757
+35,12.0,Masters,Developer,San Francisco,C++,110120
+42,20.0,Masters,Data Scientist,New York,C++,136763
+41,19.0,Bachelors,Data Scientist,Remote,AWS,105621
+29,7.0,Masters,Developer,San Francisco,AWS,82822
+28,6.0,Masters,Director,San Francisco,Java,99573
+24,0.0,Masters,Data Scientist,Remote,Java,48018
+38,16.0,PhD,Director,Austin,C++,176262
+54,28.0,Bachelors,Data Scientist,Remote,Python,136933
+33,7.0,Bachelors,Data Scientist,Austin,SQL,78097
+43,21.0,Masters,Director,San Francisco,Java,226493
+43,19.0,PhD,Data Scientist,San Francisco,Java,166782
+51,26.0,Bachelors,Director,San Francisco,Python,241490
+59,36.0,Bachelors,Developer,New York,Python,175201
+59,33.0,Bachelors,Director,New York,AWS,256543
+29,4.0,Bachelors,Developer,New York,SQL,54337
+48,24.0,Masters,Data Scientist,Remote,Python,136033
+48,25.0,Masters,Director,San Francisco,Java,259513
+55,32.0,Bachelors,Data Scientist,San Francisco,Java,192435
+42,16.0,Bachelors,Director,Remote,C++,130815
+51,29.0,Bachelors,Developer,New York,Python,155851
+54,30.0,Bachelors,Developer,Remote,AWS,129643
+49,23.0,Masters,Director,New York,SQL,234398
+54,30.0,PhD,Developer,San Francisco,AWS,234837
+26,4.0,PhD,Data Scientist,Austin,Java,74845
+40,18.0,Bachelors,Data Scientist,New York,AWS,118962
+25,0.0,PhD,Manager,San Francisco,Java,53908
+56,34.0,Masters,Developer,San Francisco,Java,207110
+38,13.0,Masters,Data Scientist,Austin,Java,95955
+49,26.0,Bachelors,Director,San Francisco,Java,228025
+51,25.0,Bachelors,Developer,San Francisco,Java,145709
+50,26.0,Bachelors,Data Scientist,New York,C++,153480
+27,2.0,Bachelors,Developer,New York,AWS,67503
+56,30.0,Bachelors,Director,Austin,C++,207592
+58,36.0,Bachelors,Data Scientist,Austin,C++,175417
+45,,Bachelors,Manager,San Francisco,Python,173994
+50,28.0,Masters,Manager,New York,Python,209262
+52,30.0,Bachelors,Developer,Austin,Python,137471
+56,32.0,Bachelors,Director,Austin,SQL,228683
+54,29.0,PhD,Data Scientist,Remote,Python,180918
+42,19.0,PhD,Director,Austin,AWS,205922
+53,29.0,Masters,Data Scientist,San Francisco,C++,205935
+44,20.0,PhD,Developer,New York,AWS,152818
+54,31.0,Masters,Data Scientist,Austin,Python,167501
+24,1.0,PhD,Director,Remote,SQL,45971
+39,17.0,Bachelors,Director,New York,SQL,164545
+46,22.0,Bachelors,Developer,Austin,C++,118812
+52,26.0,Bachelors,Director,Remote,AWS,179980
+24,1.0,Bachelors,Data Scientist,Austin,Java,47385
+45,,Bachelors,Developer,New York,AWS,121179
+53,28.0,Masters,Data Scientist,New York,Python,176458
+43,17.0,Masters,Director,New York,Java,177579
+44,18.0,Masters,Developer,San Francisco,SQL,142010
+23,0.0,Bachelors,Data Scientist,Austin,C++,55001
+48,26.0,PhD,Director,San Francisco,C++,321489
+23,0.0,Masters,Director,New York,SQL,51496
+47,21.0,Bachelors,Manager,Remote,Python,125988
+38,15.0,Masters,Director,Austin,SQL,149021
+54,28.0,Bachelors,Data Scientist,San Francisco,Python,164430
+30,5.0,Bachelors,Developer,Austin,Java,68751
+50,25.0,PhD,Manager,Remote,SQL,187501
+47,23.0,Bachelors,Director,San Francisco,Python,215490
+56,33.0,Bachelors,Director,New York,Java,261703
+46,21.0,PhD,Director,San Francisco,SQL,267180
+45,21.0,Masters,Data Scientist,Austin,C++,141225
+34,10.0,Bachelors,Manager,Austin,SQL,92885
+28,2.0,Bachelors,Data Scientist,Austin,AWS,54989
+57,31.0,Bachelors,Manager,Austin,SQL,183991
+41,17.0,Masters,Developer,New York,AWS,116740
+22,0.0,Bachelors,Data Scientist,San Francisco,Java,55534
+29,4.0,Bachelors,Data Scientist,New York,SQL,65143
+37,15.0,PhD,Developer,New York,Java,134004
+35,10.0,Masters,Manager,New York,Java,102741
+33,9.0,Bachelors,Director,Austin,Python,96688
+44,20.0,Masters,Developer,Austin,Java,122023
+36,11.0,Masters,Director,Austin,Java,126431
+49,23.0,Bachelors,Director,San Francisco,SQL,214862
+55,29.0,Bachelors,Developer,Remote,SQL,126338
+23,0.0,PhD,Manager,Austin,C++,51590
+53,30.0,Bachelors,Director,San Francisco,Python,266883
+44,18.0,Masters,Developer,Austin,Java,113800
+43,18.0,Bachelors,Data Scientist,Austin,Python,107856
+46,20.0,Bachelors,Data Scientist,New York,AWS,119751
+43,18.0,Bachelors,Data Scientist,New York,Java,119885
+43,19.0,Bachelors,Developer,New York,Python,109702
+27,1.0,Bachelors,Data Scientist,San Francisco,C++,53718
+36,11.0,Bachelors,Director,Remote,C++,108401
+58,34.0,PhD,Data Scientist,Remote,Java,190872
+54,31.0,PhD,Data Scientist,San Francisco,AWS,255656
+29,4.0,Masters,Director,Austin,C++,74269
+26,3.0,PhD,Data Scientist,San Francisco,C++,69169
+25,2.0,Bachelors,Director,Austin,AWS,58288
+27,5.0,PhD,Data Scientist,San Francisco,Python,73609
+53,27.0,Bachelors,Director,San Francisco,C++,235625
+51,26.0,PhD,Data Scientist,San Francisco,SQL,227797
+56,33.0,PhD,Director,Remote,C++,285090
+37,15.0,Masters,Developer,New York,Python,106857
+34,10.0,PhD,Director,San Francisco,Python,156006
+51,,Masters,Data Scientist,Remote,Java,142235
+40,17.0,Bachelors,Data Scientist,New York,SQL,115703
+38,12.0,Bachelors,Manager,New York,Python,110552
+40,18.0,Masters,Director,San Francisco,AWS,204853
+49,26.0,Bachelors,Developer,Austin,SQL,125064
+47,21.0,Masters,Director,Austin,SQL,187052
+58,35.0,PhD,Director,Austin,AWS,338619
+47,22.0,Bachelors,Developer,San Francisco,C++,130824
+44,19.0,Masters,Director,Austin,AWS,161509
+30,5.0,PhD,Developer,Remote,AWS,73604
+33,,PhD,Developer,Remote,C++,107065
+22,0.0,PhD,Director,Remote,C++,49963
+22,0.0,Masters,Director,Remote,C++,51010
+55,32.0,PhD,Data Scientist,New York,C++,238601
+53,29.0,Masters,Data Scientist,Remote,C++,161296
+46,20.0,Bachelors,Manager,Austin,AWS,133611
+22,0.0,Bachelors,Manager,San Francisco,Java,49067
+37,12.0,Masters,Director,Austin,Java,132314
+26,4.0,Bachelors,Developer,Remote,Python,58379
+43,20.0,Masters,Manager,New York,Java,164537
+50,28.0,Masters,Director,Remote,Java,217708
+24,1.0,Bachelors,Manager,San Francisco,AWS,52502
+33,10.0,Masters,Developer,Austin,C++,81123
+47,25.0,Masters,Director,San Francisco,C++,271100
+37,11.0,Bachelors,Developer,San Francisco,AWS,92007
+58,35.0,Bachelors,Director,San Francisco,Java,298171
+43,21.0,Bachelors,Manager,Austin,AWS,138348
+50,27.0,Bachelors,Data Scientist,Remote,Python,125758
+35,11.0,PhD,Manager,San Francisco,C++,143537
+49,23.0,Bachelors,Manager,Austin,SQL,148173
+26,1.0,Masters,Data Scientist,New York,Python,51455
+51,28.0,Bachelors,Data Scientist,Austin,Python,144566
+26,2.0,Bachelors,Director,New York,AWS,60388
+33,8.0,PhD,Director,Austin,Java,109278
+37,12.0,Masters,Developer,Remote,C++,82852
+47,24.0,Bachelors,Developer,San Francisco,SQL,144950
+47,25.0,Bachelors,Manager,Remote,Python,142586
+42,19.0,Bachelors,Data Scientist,Austin,SQL,120209
+57,33.0,Bachelors,Developer,San Francisco,Java,178485
+54,29.0,Masters,Manager,New York,Java,221466
+51,28.0,Bachelors,Data Scientist,Austin,SQL,143189
+58,36.0,Bachelors,Director,San Francisco,C++,296249
+44,21.0,Bachelors,Manager,New York,Java,155419
+31,5.0,PhD,Director,New York,SQL,100196
+26,4.0,PhD,Developer,Remote,Python,67178
+57,33.0,Bachelors,Developer,Austin,SQL,155514
+55,30.0,Masters,Data Scientist,New York,SQL,205548
+52,29.0,Bachelors,Manager,San Francisco,AWS,211697
+31,9.0,Bachelors,Director,New York,Java,114214
+40,14.0,Masters,Data Scientist,New York,C++,129245
+53,31.0,PhD,Developer,Remote,C++,170519
+22,0.0,PhD,Developer,Remote,AWS,50653
+26,2.0,Masters,Manager,San Francisco,C++,60714
+25,0.0,Bachelors,Director,Remote,SQL,54213
+37,13.0,Masters,Manager,New York,AWS,129982
+45,22.0,Bachelors,Director,New York,Python,188468
+37,15.0,Masters,Director,Remote,Java,137535
+23,0.0,Bachelors,Manager,New York,Java,55235
+49,23.0,Masters,Data Scientist,New York,Java,152777
+53,31.0,Bachelors,Manager,San Francisco,SQL,215273
+48,26.0,Bachelors,Manager,Remote,Python,143544
+41,18.0,PhD,Developer,New York,AWS,148832
+45,21.0,Bachelors,Developer,Remote,AWS,112903
+33,7.0,Masters,Manager,San Francisco,Java,85815
+56,33.0,Bachelors,Manager,Remote,Python,175212
+54,30.0,Bachelors,Developer,New York,Python,153379
+54,31.0,Bachelors,Director,Remote,Python,205687
+58,32.0,Bachelors,Manager,New York,C++,210095
+33,11.0,PhD,Data Scientist,New York,C++,115993
+24,2.0,Bachelors,Data Scientist,New York,Java,57913
+22,0.0,PhD,Data Scientist,San Francisco,Python,55621
+54,29.0,Masters,Manager,Remote,Python,191787
+31,7.0,Bachelors,Director,San Francisco,AWS,93467
+50,25.0,Masters,Director,Remote,AWS,191037
+34,11.0,Masters,Developer,San Francisco,Java,103087
+33,10.0,Masters,Manager,Austin,Python,96318
+52,26.0,Bachelors,Director,New York,Java,223148
+23,0.0,Bachelors,Manager,New York,AWS,55471
+56,30.0,PhD,Developer,San Francisco,AWS,222767
+44,22.0,PhD,Developer,Austin,C++,145182
+38,13.0,PhD,Developer,New York,Java,118826
+47,23.0,Bachelors,Data Scientist,Remote,Java,118830
+29,,Masters,Manager,San Francisco,Python,97438
+50,28.0,Bachelors,Developer,New York,Python,139536
+47,23.0,Bachelors,Manager,New York,C++,161083
+31,9.0,Bachelors,Data Scientist,San Francisco,SQL,86590
+47,22.0,Masters,Data Scientist,San Francisco,SQL,159271
+55,29.0,Bachelors,Developer,Remote,SQL,113976
+28,6.0,Bachelors,Developer,Remote,Java,56758
+25,0.0,PhD,Director,New York,Java,43473
+32,9.0,Bachelors,Manager,New York,AWS,94784
+50,25.0,Bachelors,Developer,San Francisco,Java,145319
+57,31.0,Bachelors,Director,New York,Java,247722
+46,21.0,PhD,Manager,New York,Java,212743
+42,18.0,Masters,Developer,San Francisco,C++,138221
+57,31.0,Bachelors,Director,New York,Java,251630
+31,8.0,PhD,Director,New York,Python,128361
+58,34.0,PhD,Manager,Austin,Python,259917
+30,,Bachelors,Director,Remote,AWS,70615
+45,19.0,Masters,Manager,San Francisco,C++,165950
+56,33.0,Masters,Manager,Austin,Python,215066
+56,32.0,Masters,Manager,Remote,C++,199081
+57,34.0,Bachelors,Data Scientist,Remote,C++,157752
+39,14.0,PhD,Director,Remote,AWS,150836
+53,30.0,Masters,Manager,Austin,C++,203658
+45,23.0,Bachelors,Developer,Austin,Java,104720
+44,20.0,Bachelors,Data Scientist,Remote,C++,107235
+53,30.0,Bachelors,Data Scientist,New York,AWS,166518
+58,33.0,Bachelors,Director,New York,AWS,271296
+33,,Masters,Manager,Austin,AWS,92285
+34,11.0,Bachelors,Director,Austin,Python,111871
+44,19.0,Bachelors,Data Scientist,Austin,Java,114912
+46,20.0,Masters,Manager,Remote,Python,140947
+56,30.0,Bachelors,Developer,New York,SQL,165662
+51,25.0,PhD,Manager,Austin,Java,195974
+38,16.0,Bachelors,Data Scientist,Austin,C++,103531
+41,18.0,Bachelors,Developer,San Francisco,AWS,125849
+46,24.0,Bachelors,Manager,Remote,SQL,131263
+43,18.0,Bachelors,Developer,San Francisco,Java,124390
+34,12.0,Bachelors,Developer,New York,Python,89394
+40,15.0,Masters,Data Scientist,San Francisco,AWS,127769
+57,32.0,PhD,Developer,San Francisco,Python,233298
+33,9.0,Bachelors,Director,San Francisco,Java,117976
+40,14.0,Masters,Data Scientist,Remote,Java,98454
+33,8.0,Masters,Director,New York,SQL,116437
+30,6.0,PhD,Developer,San Francisco,C++,87277
+28,2.0,Bachelors,Director,Remote,Python,55751
+49,24.0,Bachelors,Manager,New York,SQL,173469
+35,10.0,Bachelors,Developer,Austin,AWS,76682
+52,30.0,Masters,Manager,San Francisco,C++,246881
+40,18.0,PhD,Director,New York,SQL,223427
+37,11.0,Bachelors,Manager,San Francisco,Python,114560
+26,1.0,Bachelors,Developer,Austin,Java,55702
+56,33.0,PhD,Manager,New York,AWS,299326
+33,11.0,PhD,Director,Remote,Python,126761
+46,20.0,PhD,Director,New York,C++,238055
+42,17.0,Masters,Director,Remote,C++,149822
+57,32.0,Bachelors,Developer,New York,Java,162039
+44,21.0,Masters,Director,Remote,Java,163082
+37,11.0,Masters,Developer,Austin,AWS,82950
+35,10.0,Bachelors,Manager,Austin,AWS,100129
+52,30.0,Masters,Director,Austin,Java,241100
+26,3.0,Masters,Manager,New York,Java,73555
+56,30.0,Bachelors,Data Scientist,Austin,C++,147217
+44,21.0,Masters,Manager,San Francisco,Java,193790
+50,28.0,Masters,Data Scientist,Austin,SQL,166716
+32,6.0,PhD,Manager,Remote,Python,79892
+39,16.0,Bachelors,Developer,Remote,Java,83260
+33,9.0,Bachelors,Manager,Remote,AWS,74503
+30,8.0,Masters,Developer,New York,SQL,80517
+31,9.0,Bachelors,Developer,San Francisco,AWS,94548
+38,16.0,Masters,Director,Austin,SQL,151627
+59,35.0,Masters,Developer,San Francisco,Java,214526
+28,4.0,Bachelors,Data Scientist,San Francisco,Python,73677
+34,9.0,Masters,Director,Remote,AWS,103040
+30,7.0,Masters,Director,Remote,SQL,91203
+48,23.0,Bachelors,Manager,Remote,C++,140053
+23,0.0,PhD,Developer,New York,Java,51445
+26,2.0,PhD,Developer,San Francisco,Python,61203
+50,26.0,Masters,Data Scientist,San Francisco,Java,180241
+58,33.0,Masters,Manager,New York,C++,249976
+59,33.0,Bachelors,Manager,New York,Python,221792
+40,15.0,PhD,Director,New York,C++,204710
+29,6.0,Masters,Director,San Francisco,Java,102005
+22,0.0,Masters,Director,San Francisco,SQL,53776
+43,21.0,PhD,Data Scientist,Remote,Java,144904
+38,,Bachelors,Data Scientist,Remote,Java,94113
+28,5.0,PhD,Director,San Francisco,Java,105221
+46,20.0,Bachelors,Manager,Remote,AWS,131547
+25,1.0,Bachelors,Data Scientist,New York,C++,49528
+57,34.0,Bachelors,Manager,Austin,C++,185543
+27,3.0,PhD,Manager,Remote,C++,64345
+52,27.0,PhD,Developer,San Francisco,AWS,209008
+40,18.0,Masters,Director,Remote,SQL,159325
+48,22.0,Masters,Developer,Remote,Java,116332
+31,7.0,Masters,Director,Remote,SQL,78381
+47,24.0,PhD,Director,Austin,AWS,241853
+40,16.0,Bachelors,Manager,New York,C++,129670
+24,1.0,Bachelors,Director,San Francisco,Java,51209
+34,10.0,Bachelors,Manager,Austin,Python,88220
+49,26.0,Masters,Manager,San Francisco,Python,224688
+41,16.0,Masters,Director,San Francisco,SQL,185175
+49,26.0,Bachelors,Manager,San Francisco,C++,193688
+29,6.0,Bachelors,Manager,Austin,Python,73422
+22,0.0,PhD,Manager,New York,SQL,46229
+24,1.0,Bachelors,Data Scientist,San Francisco,AWS,52476
+34,12.0,Masters,Manager,New York,SQL,125070
+49,23.0,PhD,Data Scientist,New York,SQL,179163
+46,24.0,Bachelors,Data Scientist,Remote,SQL,129531
+54,29.0,Bachelors,Manager,Austin,Java,174674
+59,37.0,Masters,Manager,Austin,SQL,233801
+27,1.0,PhD,Data Scientist,Remote,SQL,58522
+53,28.0,Masters,Data Scientist,Remote,Java,155904
+42,18.0,PhD,Manager,New York,Java,184428
+37,13.0,Bachelors,Manager,San Francisco,AWS,119897
+42,20.0,Masters,Director,Austin,C++,187067
+32,10.0,Masters,Data Scientist,San Francisco,Python,112075
+58,32.0,PhD,Data Scientist,San Francisco,Python,256067
+57,31.0,Bachelors,Director,Remote,SQL,194869
+56,33.0,PhD,Data Scientist,San Francisco,AWS,260002
+40,14.0,Masters,Developer,New York,SQL,115645
+41,18.0,Bachelors,Data Scientist,Remote,Python,98309
+39,14.0,Bachelors,Director,San Francisco,Java,147239
+35,13.0,PhD,Developer,Remote,C++,104113
+36,11.0,Bachelors,Manager,New York,AWS,100826
+52,26.0,Bachelors,Director,New York,Java,223962
+22,0.0,Bachelors,Director,San Francisco,C++,53470
+24,0.0,PhD,Manager,Remote,AWS,60048
+37,12.0,Masters,Director,San Francisco,AWS,154995
+44,18.0,Masters,Data Scientist,San Francisco,Python,137860
+32,7.0,Bachelors,Manager,Remote,Java,79112
+33,10.0,Masters,Director,San Francisco,AWS,139180
+31,5.0,Masters,Manager,New York,AWS,85437
+53,,PhD,Manager,Remote,C++,204876
+37,11.0,PhD,Manager,Remote,Python,107888
+29,5.0,Bachelors,Developer,Remote,SQL,57802
+59,36.0,Masters,Director,Remote,Python,267976
+33,8.0,Bachelors,Developer,San Francisco,SQL,84314
+45,21.0,Masters,Director,San Francisco,Java,222798
+49,25.0,Bachelors,Data Scientist,New York,Java,149636
+29,3.0,Bachelors,Data Scientist,Austin,AWS,59282
+49,25.0,Bachelors,Data Scientist,Austin,Java,127637
+57,34.0,Masters,Director,New York,AWS,314565
+47,24.0,Bachelors,Manager,Austin,Python,151753
+29,7.0,Masters,Manager,New York,Java,101992
+49,26.0,Bachelors,Developer,San Francisco,Python,148122
+49,25.0,Bachelors,Developer,Remote,Python,108953
+58,35.0,Masters,Data Scientist,Remote,Java,169495
+57,31.0,Bachelors,Developer,San Francisco,Python,166437
+48,26.0,Bachelors,Director,Remote,Java,174225
+38,14.0,Masters,Director,Remote,Java,126415
+30,8.0,Bachelors,Developer,Austin,Java,78111
+54,30.0,Bachelors,Developer,San Francisco,SQL,161420
+41,15.0,Bachelors,Developer,Austin,Python,95100
+34,12.0,PhD,Developer,Austin,C++,114001
+49,24.0,Masters,Data Scientist,Remote,Java,138304
+50,26.0,Masters,Data Scientist,Remote,Python,144918
+34,9.0,Masters,Developer,San Francisco,AWS,101407
+56,34.0,Bachelors,Director,Remote,Java,221468
+27,2.0,Bachelors,Data Scientist,Remote,Java,58766
+39,14.0,Masters,Director,San Francisco,C++,166382
+26,4.0,Bachelors,Manager,Remote,SQL,65007
+46,20.0,Bachelors,Director,Austin,SQL,157643
+23,0.0,Bachelors,Developer,San Francisco,Java,47993
+31,6.0,Bachelors,Manager,Remote,Python,73740
+51,25.0,PhD,Data Scientist,New York,AWS,200254
+26,1.0,Bachelors,Data Scientist,San Francisco,AWS,48067
+54,29.0,Masters,Manager,San Francisco,Python,248168
+22,0.0,Bachelors,Director,New York,Java,52049
+39,16.0,PhD,Data Scientist,Remote,AWS,119966
+53,27.0,Bachelors,Developer,Remote,SQL,124006
+32,7.0,Bachelors,Manager,San Francisco,Python,92872
+42,16.0,Masters,Developer,San Francisco,C++,117547
+47,23.0,Masters,Manager,Remote,Java,153803
+46,22.0,Bachelors,Data Scientist,Remote,Python,109411
+43,18.0,Bachelors,Director,Austin,AWS,160485
+48,22.0,Bachelors,Manager,San Francisco,Java,170811
+34,8.0,Bachelors,Manager,San Francisco,SQL,87791
+54,28.0,Bachelors,Developer,New York,Java,168797
+55,32.0,Bachelors,Data Scientist,Austin,Java,152920
+56,32.0,Bachelors,Developer,Remote,SQL,135355
+22,0.0,Bachelors,Data Scientist,Austin,SQL,49316
+42,16.0,Masters,Developer,Remote,Java,97600
+27,4.0,PhD,Manager,Remote,SQL,73917
+49,26.0,Masters,Developer,Austin,Python,132546
+38,12.0,Bachelors,Director,San Francisco,SQL,139669
+26,4.0,Bachelors,Data Scientist,Remote,SQL,56241
+52,26.0,PhD,Data Scientist,Austin,Java,176623
+26,0.0,Bachelors,Manager,New York,Python,53758
+59,36.0,Bachelors,Data Scientist,Austin,C++,167778
+24,1.0,Masters,Director,New York,C++,56958
+44,18.0,Masters,Developer,Remote,AWS,103260
+58,32.0,Masters,Manager,Austin,SQL,221758
+58,32.0,Bachelors,Director,Austin,SQL,225457
+31,8.0,Bachelors,Data Scientist,New York,Python,76266
+31,5.0,PhD,Data Scientist,Austin,C++,75641
+40,14.0,Bachelors,Director,Austin,AWS,119833
+38,13.0,Masters,Developer,Remote,Python,100732
+42,20.0,Masters,Developer,Austin,SQL,122998
+35,11.0,Masters,Manager,San Francisco,C++,117194
+30,8.0,Bachelors,Data Scientist,New York,AWS,85168
+22,,Bachelors,Director,Austin,Java,48610
+34,10.0,Masters,Developer,New York,C++,86759
+25,0.0,PhD,Manager,New York,AWS,51905
+22,0.0,PhD,Data Scientist,New York,Python,51764
+53,27.0,Bachelors,Data Scientist,Austin,Java,144789
+55,32.0,Bachelors,Manager,Austin,AWS,184723
+49,24.0,PhD,Manager,New York,AWS,231975
+52,29.0,Masters,Developer,San Francisco,SQL,186521
+29,4.0,PhD,Director,New York,C++,96856
+47,22.0,Bachelors,Data Scientist,San Francisco,SQL,142830
+55,32.0,Masters,Director,New York,Java,301179
+24,0.0,Masters,Data Scientist,Remote,AWS,53084
+33,11.0,Masters,Data Scientist,New York,SQL,104021
+22,0.0,Bachelors,Director,New York,C++,48260
+26,1.0,Bachelors,Manager,Austin,Java,54803
+51,25.0,Masters,Developer,San Francisco,Python,166532
+51,28.0,Bachelors,Data Scientist,Remote,SQL,142956
+38,12.0,Bachelors,Manager,San Francisco,Java,113231
+44,21.0,PhD,Data Scientist,Remote,Python,138992
+36,10.0,Bachelors,Developer,New York,SQL,85969
+58,36.0,PhD,Data Scientist,Austin,Java,227817
+42,20.0,Bachelors,Developer,Austin,Java,110984
+35,13.0,Masters,Developer,San Francisco,SQL,108553
+23,1.0,PhD,Data Scientist,Austin,Java,55502
+32,10.0,Bachelors,Data Scientist,San Francisco,AWS,93548
+59,37.0,Bachelors,Developer,San Francisco,SQL,198830
+55,32.0,Bachelors,Manager,Remote,Java,171425
+59,34.0,Bachelors,Director,San Francisco,Python,289192
+55,29.0,Masters,Developer,Remote,Python,146542
+39,17.0,PhD,Data Scientist,Austin,AWS,138488
+51,28.0,Bachelors,Data Scientist,San Francisco,SQL,165202
+36,13.0,Bachelors,Manager,San Francisco,Java,114718
+48,25.0,Bachelors,Director,New York,Java,220477
+55,30.0,Masters,Developer,San Francisco,Python,193920
+59,33.0,Bachelors,Developer,San Francisco,AWS,177603
+54,29.0,Masters,Director,New York,Python,275603
+45,21.0,Masters,Developer,New York,Python,138757
+36,13.0,Masters,Director,Austin,AWS,135296
+51,27.0,Bachelors,Data Scientist,San Francisco,SQL,160971
+38,16.0,Masters,Director,Austin,Java,157881
+26,4.0,Bachelors,Developer,Austin,SQL,62877
+50,25.0,Bachelors,Director,New York,C++,213058
+25,0.0,PhD,Manager,Remote,C++,45530
+31,7.0,Masters,Data Scientist,Austin,C++,80341
+38,12.0,Bachelors,Data Scientist,Remote,AWS,81285
+31,6.0,Bachelors,Director,San Francisco,Python,88659
+38,16.0,Bachelors,Developer,New York,SQL,108038
+41,15.0,Bachelors,Manager,San Francisco,Java,144437
+45,19.0,Bachelors,Data Scientist,San Francisco,C++,132367
+26,4.0,Bachelors,Data Scientist,New York,SQL,52996
+55,31.0,Bachelors,Developer,San Francisco,C++,167687
+27,,Masters,Developer,New York,C++,75019
+23,0.0,Masters,Manager,Remote,Java,44358
+34,10.0,Masters,Director,San Francisco,AWS,138396
+32,8.0,Bachelors,Developer,New York,Python,79594
+44,22.0,PhD,Director,Austin,AWS,233157
+37,11.0,PhD,Manager,San Francisco,SQL,137296
+52,27.0,PhD,Director,Remote,AWS,243646
+32,6.0,PhD,Data Scientist,New York,SQL,88465
+37,14.0,PhD,Director,San Francisco,SQL,197382
+29,4.0,Masters,Manager,San Francisco,Python,75868
+25,1.0,Bachelors,Manager,San Francisco,Java,63305
+25,0.0,Masters,Manager,Remote,Python,53021
+46,22.0,Masters,Director,New York,AWS,211122
+24,0.0,Masters,Data Scientist,Austin,SQL,53995
+53,28.0,Masters,Developer,Austin,C++,154295
+24,0.0,Bachelors,Data Scientist,Austin,C++,55925
+48,24.0,Bachelors,Director,New York,SQL,200822
+50,27.0,PhD,Director,Austin,Python,270324
+53,,Masters,Developer,Remote,Java,138038
+40,14.0,Masters,Director,New York,Python,154076
+42,19.0,Bachelors,Manager,San Francisco,SQL,158474
+26,,Bachelors,Manager,Remote,SQL,52572
+39,17.0,PhD,Manager,San Francisco,Java,194994
+49,27.0,Masters,Manager,Austin,AWS,182366
+43,21.0,Masters,Manager,Remote,AWS,137953
+42,19.0,Bachelors,Director,New York,Java,171907
+27,,Masters,Developer,Remote,AWS,64120
+22,0.0,Bachelors,Developer,San Francisco,C++,47329
+26,4.0,Masters,Manager,New York,AWS,58870
+33,8.0,Bachelors,Director,Remote,AWS,90798
+47,22.0,Bachelors,Data Scientist,Remote,AWS,117235
+55,33.0,Masters,Data Scientist,Remote,C++,171048
+35,13.0,PhD,Director,Remote,AWS,142868
+47,25.0,Bachelors,Manager,New York,C++,173825
+48,25.0,PhD,Developer,San Francisco,Java,203452
+30,7.0,Bachelors,Director,Remote,Python,76143
+47,24.0,Bachelors,Data Scientist,New York,Java,143804
+43,17.0,Bachelors,Data Scientist,San Francisco,Python,123642
+51,26.0,Bachelors,Data Scientist,Remote,Java,130250
+38,13.0,Masters,Manager,San Francisco,Python,136025
+47,23.0,Bachelors,Data Scientist,San Francisco,Python,144060
+57,34.0,Bachelors,Director,New York,SQL,276158
+22,0.0,PhD,Director,San Francisco,Python,50010
+29,3.0,Bachelors,Data Scientist,New York,Python,53540
+56,31.0,Masters,Director,Remote,SQL,231838
+36,13.0,Bachelors,Data Scientist,San Francisco,AWS,108146
+43,19.0,Masters,Data Scientist,San Francisco,AWS,157616
+35,12.0,Bachelors,Developer,Austin,SQL,88044
+47,25.0,Bachelors,Manager,Remote,C++,137090
+49,26.0,Bachelors,Manager,Remote,Python,141045
+44,22.0,Bachelors,Developer,Austin,Python,122294
+35,13.0,Bachelors,Developer,Austin,SQL,84986
+45,21.0,Masters,Manager,New York,SQL,169260
+23,0.0,PhD,Data Scientist,New York,C++,55003
+47,24.0,PhD,Data Scientist,San Francisco,AWS,202061
+35,13.0,Masters,Manager,San Francisco,Java,139911
+28,5.0,Bachelors,Data Scientist,San Francisco,AWS,66876
+24,0.0,Bachelors,Developer,San Francisco,Python,57369
+44,19.0,Bachelors,Data Scientist,New York,SQL,129600
+39,13.0,Bachelors,Data Scientist,Remote,C++,84997
+59,34.0,Masters,Director,San Francisco,AWS,328114
+56,32.0,Masters,Director,Remote,C++,248150
+36,14.0,Bachelors,Director,San Francisco,AWS,147229
+46,20.0,Bachelors,Data Scientist,Austin,Python,112186
+58,34.0,PhD,Manager,San Francisco,Java,335392
+49,26.0,Masters,Developer,San Francisco,C++,176409
+31,9.0,Bachelors,Data Scientist,San Francisco,C++,94524
+38,13.0,PhD,Manager,New York,Java,147787
+43,21.0,PhD,Data Scientist,Austin,C++,163355
+47,24.0,Bachelors,Developer,San Francisco,C++,137047
+46,20.0,Bachelors,Data Scientist,San Francisco,AWS,133040
+38,12.0,Masters,Developer,Remote,AWS,90829
+34,8.0,PhD,Data Scientist,Austin,Java,95441
+41,16.0,PhD,Developer,San Francisco,Python,146906
+46,22.0,Bachelors,Data Scientist,Remote,C++,114926
+25,,Bachelors,Developer,Remote,Python,50324
+31,9.0,Masters,Director,New York,Java,125852
+24,0.0,Masters,Data Scientist,Remote,Java,53822
+39,13.0,Bachelors,Data Scientist,San Francisco,AWS,101397
+57,31.0,PhD,Manager,New York,C++,279839
+43,20.0,Masters,Manager,New York,SQL,168233
+55,32.0,PhD,Developer,San Francisco,Java,233831
+29,3.0,PhD,Data Scientist,Austin,C++,69999
+40,14.0,Masters,Developer,Remote,Python,97539
+58,33.0,Bachelors,Director,New York,AWS,266629
+27,3.0,Masters,Manager,Austin,Python,66078
+47,24.0,Bachelors,Developer,San Francisco,Java,144794
+55,31.0,Masters,Developer,Remote,Java,142531
+27,2.0,Bachelors,Manager,Remote,Python,61531
+58,32.0,Masters,Data Scientist,New York,Java,199247
+54,30.0,Bachelors,Developer,Remote,C++,130834
+43,17.0,Bachelors,Manager,Remote,Java,111894
+42,16.0,Bachelors,Data Scientist,Remote,AWS,98249
+27,,Bachelors,Director,Remote,C++,77165
+27,3.0,Masters,Manager,San Francisco,SQL,64612
+25,1.0,Masters,Developer,Austin,Java,54864
+51,25.0,Masters,Director,San Francisco,Java,258355
+32,7.0,Bachelors,Data Scientist,San Francisco,AWS,86637
+51,29.0,Bachelors,Data Scientist,New York,AWS,159267
+52,26.0,Bachelors,Manager,Remote,Python,143267
+45,22.0,Bachelors,Manager,San Francisco,Python,168322
+30,7.0,PhD,Manager,Remote,Python,85062
+24,2.0,Bachelors,Data Scientist,San Francisco,AWS,57458
+52,27.0,Bachelors,Director,San Francisco,Python,236901
+58,32.0,Bachelors,Data Scientist,New York,Python,177162
+57,33.0,Bachelors,Developer,Austin,SQL,154040
+45,23.0,Masters,Data Scientist,Austin,Python,141436
+52,27.0,Masters,Developer,San Francisco,Java,177172
+27,3.0,Bachelors,Director,New York,AWS,64153
+23,0.0,Bachelors,Manager,Remote,C++,49330
+41,18.0,Bachelors,Manager,Remote,SQL,115931
+49,25.0,Bachelors,Data Scientist,San Francisco,AWS,160658
+32,10.0,Bachelors,Manager,Austin,AWS,88177
+25,2.0,PhD,Director,New York,Java,65137
+36,10.0,Masters,Manager,Austin,Python,101987
+27,3.0,Masters,Data Scientist,Remote,Java,70593
+51,27.0,Bachelors,Director,Austin,Python,194920
+59,36.0,Bachelors,Developer,Remote,Python,148041
+23,1.0,Masters,Data Scientist,New York,AWS,59492
+36,10.0,Masters,Developer,New York,Python,95750
+32,10.0,Masters,Director,San Francisco,SQL,136822
+29,4.0,Bachelors,Data Scientist,San Francisco,SQL,66684
+47,22.0,Masters,Data Scientist,Austin,SQL,136741
+26,3.0,Bachelors,Director,New York,AWS,65664
+27,4.0,PhD,Manager,New York,Java,82672
+47,24.0,Masters,Data Scientist,San Francisco,C++,175870
+25,0.0,Masters,Data Scientist,Remote,Python,53586
+40,18.0,Bachelors,Developer,Austin,C++,101559
+41,19.0,Masters,Manager,Austin,Java,149911
+54,31.0,Bachelors,Developer,San Francisco,Java,176567
+41,15.0,Bachelors,Developer,New York,AWS,97930
+33,11.0,Bachelors,Manager,San Francisco,SQL,108576
+22,0.0,Masters,Manager,San Francisco,SQL,55875
+47,23.0,Bachelors,Director,San Francisco,Java,208212
+35,11.0,Bachelors,Manager,San Francisco,AWS,112704
+59,35.0,PhD,Data Scientist,Remote,AWS,205968
+58,32.0,Bachelors,Manager,Remote,Python,172614
+32,9.0,Masters,Director,New York,SQL,120179
+57,32.0,Bachelors,Director,San Francisco,Java,278371
+34,8.0,Bachelors,Director,Remote,C++,83772
+24,0.0,Masters,Manager,New York,SQL,45433
+54,29.0,Bachelors,Manager,San Francisco,Python,215663
+27,4.0,Bachelors,Developer,Austin,AWS,72502
+31,7.0,Masters,Developer,Remote,Java,72653
+26,3.0,Masters,Data Scientist,New York,SQL,72832
+44,18.0,Masters,Developer,Austin,C++,110941
+31,5.0,Bachelors,Data Scientist,San Francisco,Python,68792
+23,0.0,Bachelors,Director,San Francisco,Python,57287
+34,11.0,Masters,Developer,San Francisco,SQL,105501
+23,0.0,Masters,Manager,Remote,C++,58032
+41,16.0,PhD,Developer,New York,Python,138743
+22,0.0,PhD,Data Scientist,Austin,Java,44937
+58,32.0,PhD,Developer,New York,Python,223918
+30,5.0,Bachelors,Director,Remote,C++,80310
+38,16.0,Bachelors,Manager,New York,AWS,129976
+30,5.0,Masters,Data Scientist,Remote,AWS,66388
+32,6.0,Bachelors,Manager,San Francisco,SQL,85179
+36,12.0,Bachelors,Manager,Austin,C++,97602
+45,19.0,PhD,Data Scientist,San Francisco,Python,173743
+59,36.0,PhD,Manager,New York,Python,322478
+56,31.0,Bachelors,Manager,San Francisco,AWS,216808
+51,26.0,Bachelors,Developer,Austin,AWS,132904
+52,29.0,Bachelors,Manager,San Francisco,Java,211570
+26,3.0,PhD,Manager,Austin,AWS,67132
+35,11.0,PhD,Manager,Austin,Java,119225
+32,7.0,Bachelors,Manager,San Francisco,Python,86864
+30,5.0,Bachelors,Data Scientist,Remote,Java,61657
+55,31.0,PhD,Director,New York,Java,342829
+33,11.0,Bachelors,Developer,Remote,SQL,77281
+56,32.0,Masters,Manager,Remote,AWS,192032
+56,30.0,PhD,Manager,San Francisco,Java,296274
+22,0.0,Bachelors,Data Scientist,New York,Python,52203
+43,20.0,Masters,Director,New York,C++,201509
+50,24.0,Bachelors,Manager,Remote,Java,142587
+29,4.0,Bachelors,Data Scientist,San Francisco,AWS,62379
+32,8.0,PhD,Developer,New York,SQL,92574
+58,32.0,Bachelors,Developer,Remote,Python,133388
+35,10.0,PhD,Manager,New York,SQL,129331
+51,29.0,Masters,Manager,San Francisco,C++,240592
+56,34.0,Bachelors,Director,San Francisco,Java,288129
+42,19.0,Bachelors,Director,San Francisco,Java,180254
+58,33.0,Bachelors,Manager,New York,AWS,214676
+26,4.0,Bachelors,Data Scientist,Austin,Java,72345
+40,16.0,Bachelors,Director,New York,Python,151175
+35,10.0,Bachelors,Manager,Austin,C++,94397
+47,23.0,Bachelors,Director,San Francisco,SQL,210897
+25,1.0,Masters,Manager,Remote,C++,56790
+46,24.0,Masters,Developer,Austin,Java,140585
+46,21.0,Masters,Manager,San Francisco,SQL,185822
+39,13.0,Bachelors,Developer,San Francisco,AWS,104249
+29,7.0,Bachelors,Director,Austin,C++,101583
+35,,Masters,Manager,Remote,SQL,111806
+53,28.0,Bachelors,Director,San Francisco,SQL,254628
+59,34.0,Bachelors,Developer,Austin,SQL,154405
+54,30.0,PhD,Manager,Remote,Python,215440
+44,19.0,Masters,Director,Remote,C++,162186
+36,12.0,Masters,Developer,San Francisco,SQL,104508
+54,32.0,Bachelors,Director,New York,C++,254380
+46,23.0,Masters,Data Scientist,New York,SQL,158933
+38,12.0,Masters,Developer,San Francisco,AWS,105386
+54,32.0,Masters,Developer,Remote,AWS,148380
+23,0.0,Masters,Developer,San Francisco,AWS,63542
+35,9.0,PhD,Manager,Austin,Java,110739
+27,4.0,Masters,Manager,New York,SQL,75414
+27,4.0,Bachelors,Manager,Austin,Java,67249
+24,0.0,Masters,Data Scientist,San Francisco,C++,56012
+28,2.0,Masters,Data Scientist,San Francisco,Java,70674
+29,5.0,Masters,Developer,Remote,C++,69625
+36,14.0,Bachelors,Data Scientist,Remote,C++,92186
+50,24.0,Bachelors,Director,Remote,C++,174003
+54,32.0,PhD,Developer,Austin,Java,194712
+51,,Masters,Developer,Remote,SQL,139657
+48,22.0,PhD,Director,San Francisco,Java,286665
+57,33.0,Masters,Developer,Remote,SQL,154988
+50,24.0,Masters,Data Scientist,New York,SQL,153669
+59,35.0,Masters,Manager,Remote,C++,206585
+54,31.0,PhD,Director,Austin,Java,304965
+58,34.0,Masters,Data Scientist,New York,SQL,215081
+48,25.0,Masters,Director,New York,AWS,251113
+54,30.0,Bachelors,Director,New York,SQL,242416
+25,0.0,Bachelors,Developer,Austin,AWS,57905
+43,17.0,Masters,Developer,San Francisco,Java,130485
+23,0.0,Bachelors,Data Scientist,Remote,Java,53022
+31,6.0,Bachelors,Director,New York,Java,93398
+26,4.0,Bachelors,Developer,New York,SQL,57492
+31,5.0,Bachelors,Developer,New York,Python,62976
+54,31.0,Bachelors,Director,San Francisco,SQL,262430
+59,33.0,Bachelors,Data Scientist,San Francisco,SQL,196931
+34,9.0,PhD,Data Scientist,Austin,C++,93023
+52,29.0,Masters,Director,San Francisco,C++,304434
+57,32.0,Bachelors,Data Scientist,Remote,SQL,145057
+45,22.0,Bachelors,Developer,Austin,AWS,108643
+36,12.0,Masters,Director,Austin,C++,124398
+50,28.0,Bachelors,Developer,Remote,SQL,126187
+29,7.0,PhD,Manager,Remote,Python,92266
+26,1.0,Masters,Manager,Remote,AWS,49612
+50,28.0,Masters,Data Scientist,Austin,Java,163722
+25,0.0,Bachelors,Manager,Austin,SQL,54178
+33,8.0,Masters,Developer,Austin,SQL,75595
+23,0.0,Bachelors,Manager,Remote,AWS,59846
+48,26.0,PhD,Developer,Remote,C++,152637
+52,27.0,Masters,Data Scientist,New York,C++,173305
+57,35.0,Bachelors,Data Scientist,San Francisco,C++,192504
+57,32.0,Bachelors,Developer,New York,Java,171303
+47,21.0,Bachelors,Manager,Remote,AWS,129494
+48,23.0,Masters,Data Scientist,Austin,AWS,138684
+26,3.0,Bachelors,Director,Remote,C++,57209
+41,16.0,Masters,Data Scientist,San Francisco,C++,130422
+32,8.0,Bachelors,Manager,New York,Python,102227
+31,6.0,Masters,Director,New York,Python,85934
+59,36.0,PhD,Manager,Austin,SQL,273642
+27,4.0,Masters,Developer,New York,SQL,76244
+29,7.0,Masters,Director,New York,AWS,110677
+44,18.0,Bachelors,Manager,Remote,AWS,115187
+47,22.0,Bachelors,Director,New York,Java,193578
+33,11.0,Masters,Manager,New York,Java,118843
+47,21.0,Bachelors,Director,New York,Python,186749
+34,9.0,Bachelors,Manager,Austin,SQL,96722
+39,15.0,Bachelors,Developer,Austin,Python,96699
+46,21.0,Bachelors,Director,Remote,Python,157738
+54,31.0,Bachelors,Director,New York,SQL,251788
+33,10.0,PhD,Director,Austin,Java,120838
+57,33.0,Bachelors,Director,Austin,SQL,222238
+25,3.0,Masters,Developer,Remote,C++,54796
+26,0.0,Bachelors,Director,San Francisco,C++,48754
+58,33.0,Masters,Data Scientist,New York,C++,217208
+29,,Bachelors,Developer,Austin,AWS,69812
+49,,PhD,Data Scientist,Remote,Java,169756
+52,28.0,PhD,Director,Remote,Java,260313
+30,7.0,Bachelors,Manager,Remote,AWS,69201
+50,26.0,PhD,Data Scientist,Austin,Python,176252
+35,10.0,PhD,Director,New York,C++,144013
+43,17.0,PhD,Data Scientist,San Francisco,C++,161385
+32,9.0,PhD,Director,New York,Python,141959
+44,21.0,Bachelors,Director,Remote,SQL,154417
+22,0.0,Masters,Director,Remote,SQL,52437
+58,36.0,Bachelors,Manager,San Francisco,Java,244754
+42,16.0,Bachelors,Data Scientist,New York,AWS,114964
+47,24.0,PhD,Developer,Remote,Java,143001
+57,31.0,Bachelors,Developer,Remote,SQL,137071
+44,21.0,Masters,Developer,New York,Python,138217
+22,0.0,PhD,Developer,Remote,Java,44392
+36,12.0,PhD,Director,New York,C++,166829
+42,,PhD,Data Scientist,Remote,C++,125079
+30,4.0,Bachelors,Data Scientist,New York,Python,73212
+30,8.0,Bachelors,Manager,San Francisco,SQL,97665
+31,7.0,Bachelors,Data Scientist,Remote,C++,72475
+47,23.0,Bachelors,Data Scientist,San Francisco,C++,140552
+56,34.0,Bachelors,Data Scientist,Remote,AWS,147479
+46,20.0,Bachelors,Manager,Remote,Java,125803
+47,22.0,Masters,Developer,Austin,SQL,127884
+32,10.0,Masters,Data Scientist,New York,Java,89077
+59,33.0,Bachelors,Manager,San Francisco,SQL,223598
+23,1.0,Masters,Manager,San Francisco,C++,55137
+28,,Bachelors,Director,San Francisco,AWS,85704
+39,16.0,Bachelors,Manager,New York,Java,137497
+48,22.0,Masters,Developer,Austin,C++,131673
+55,30.0,Masters,Data Scientist,San Francisco,SQL,200423
+48,25.0,Masters,Manager,New York,Java,207046
+38,16.0,Bachelors,Developer,Remote,Java,98039
+45,23.0,PhD,Manager,San Francisco,C++,239815
+46,24.0,Masters,Manager,San Francisco,Java,207050
+28,,Masters,Manager,Austin,AWS,58588
+27,1.0,Masters,Manager,San Francisco,AWS,53852
+45,22.0,PhD,Manager,San Francisco,C++,223496
+54,29.0,Masters,Developer,Remote,SQL,151602
+50,27.0,Masters,Data Scientist,New York,C++,175701
+43,19.0,PhD,Data Scientist,New York,AWS,163001
+47,25.0,Masters,Data Scientist,Austin,Python,144449
+49,27.0,Bachelors,Data Scientist,Remote,Python,128893
+42,20.0,Masters,Developer,New York,Java,150654
+28,5.0,Bachelors,Director,Remote,Java,70670
+38,15.0,Bachelors,Director,New York,Python,154443
+41,19.0,Masters,Developer,Remote,AWS,111421
+41,18.0,PhD,Developer,Austin,Java,134400
+43,17.0,PhD,Manager,San Francisco,C++,195453
+49,23.0,Bachelors,Manager,Austin,C++,147961
+28,5.0,Masters,Manager,New York,AWS,78481
+22,,Bachelors,Data Scientist,Austin,Java,49070
+53,30.0,PhD,Manager,San Francisco,C++,294938
+34,11.0,PhD,Director,Austin,Java,148422
+51,28.0,Masters,Data Scientist,New York,Java,175635
+44,20.0,PhD,Manager,New York,C++,192346
+40,14.0,Masters,Data Scientist,Austin,Python,96920
+53,28.0,Masters,Director,San Francisco,C++,281402
+51,26.0,Bachelors,Manager,Austin,AWS,162700
+50,26.0,Bachelors,Director,San Francisco,SQL,236327
+50,27.0,Masters,Director,Remote,C++,204426
+51,27.0,Masters,Director,San Francisco,Java,277306
+37,13.0,Bachelors,Manager,Remote,Java,93559
+40,18.0,PhD,Developer,Austin,C++,125882
+39,13.0,Bachelors,Manager,San Francisco,SQL,123879
+22,0.0,Masters,Director,Remote,C++,55238
+35,12.0,Masters,Manager,Remote,SQL,102048
+23,0.0,Masters,Director,Remote,SQL,58175
+49,24.0,Masters,Developer,New York,AWS,158508
+51,25.0,Bachelors,Data Scientist,Austin,Java,140459
+59,34.0,Bachelors,Developer,Remote,Java,140295
+25,0.0,Masters,Developer,San Francisco,SQL,57603
+22,0.0,Masters,Data Scientist,Remote,Java,60898
+29,3.0,Bachelors,Manager,New York,Python,63057
+50,28.0,Masters,Data Scientist,Austin,SQL,160109
+24,1.0,Bachelors,Manager,New York,Java,50301
+53,28.0,Masters,Manager,New York,Python,213623
+31,8.0,PhD,Director,New York,AWS,122097
+31,9.0,Bachelors,Director,San Francisco,Java,109123
+40,17.0,Bachelors,Data Scientist,Austin,Python,107474
+55,33.0,Masters,Developer,Austin,C++,164954
+54,30.0,Masters,Data Scientist,San Francisco,C++,205661
+44,19.0,Masters,Manager,Austin,Python,147084
+49,27.0,PhD,Director,New York,SQL,310089
+53,30.0,PhD,Data Scientist,Austin,SQL,198187
+28,3.0,PhD,Data Scientist,San Francisco,Java,66665
+50,,Masters,Director,New York,C++,250622
+29,4.0,Bachelors,Director,San Francisco,SQL,74036
+22,0.0,Bachelors,Director,Remote,SQL,50421
+24,0.0,Bachelors,Manager,New York,C++,46997
+45,22.0,Masters,Director,New York,AWS,215242
+44,20.0,Bachelors,Developer,Austin,SQL,112967
+29,5.0,PhD,Data Scientist,New York,Python,82836
+58,32.0,Masters,Director,San Francisco,Java,325126
+24,0.0,Masters,Director,Austin,SQL,44878
+54,30.0,Bachelors,Manager,Remote,SQL,160995
+49,24.0,Bachelors,Manager,San Francisco,AWS,182192
+29,6.0,Bachelors,Data Scientist,Remote,Python,65310
+55,30.0,Bachelors,Developer,Remote,Java,133855
+56,31.0,Bachelors,Data Scientist,Remote,SQL,144560
+53,31.0,Masters,Director,New York,Java,293452
+45,20.0,PhD,Developer,San Francisco,C++,174298
+35,9.0,PhD,Developer,San Francisco,SQL,105870
+53,27.0,Masters,Developer,New York,SQL,167409
+37,15.0,Bachelors,Developer,Austin,C++,94032
+25,2.0,PhD,Data Scientist,Remote,AWS,58291
+58,35.0,PhD,Manager,San Francisco,SQL,331329
+42,17.0,Bachelors,Manager,New York,Java,126851
+35,10.0,Masters,Director,Remote,Python,110639
+52,27.0,Bachelors,Manager,Austin,Java,169518
+39,16.0,PhD,Manager,Austin,AWS,149149
+28,4.0,PhD,Manager,Remote,Python,80615
+31,5.0,Bachelors,Manager,Austin,Java,70117
+28,4.0,PhD,Director,San Francisco,Java,82351
+54,30.0,Masters,Data Scientist,San Francisco,C++,209031
+44,21.0,PhD,Developer,San Francisco,AWS,170454
+42,18.0,Bachelors,Manager,Austin,C++,130644
+40,18.0,PhD,Data Scientist,San Francisco,Python,159442
+40,15.0,Bachelors,Manager,New York,C++,127660
+57,35.0,Bachelors,Manager,San Francisco,AWS,237098
+50,24.0,Bachelors,Developer,San Francisco,SQL,144607
+39,14.0,PhD,Developer,Austin,SQL,116833
+23,0.0,PhD,Developer,San Francisco,Python,52672
+22,0.0,PhD,Manager,Remote,SQL,50347
+26,1.0,PhD,Manager,New York,C++,50668
+41,17.0,Bachelors,Manager,Austin,Python,125052
+32,10.0,Bachelors,Developer,New York,AWS,91157
+23,0.0,Bachelors,Director,Remote,Python,44785
+24,0.0,Bachelors,Data Scientist,Austin,Python,45520
+44,22.0,Bachelors,Director,Austin,Java,174168
+33,7.0,Bachelors,Manager,San Francisco,Java,87178
+41,15.0,Bachelors,Manager,New York,Python,121249
+26,0.0,Bachelors,Director,Remote,SQL,51363
+58,32.0,Bachelors,Manager,Remote,Java,167767
+59,36.0,Bachelors,Data Scientist,Austin,AWS,169605
+51,26.0,PhD,Manager,San Francisco,C++,260874
+30,5.0,Masters,Data Scientist,Austin,Java,68162
+55,32.0,PhD,Director,Austin,Python,314752
+56,32.0,Bachelors,Director,Austin,SQL,210457
+43,19.0,Bachelors,Manager,Austin,C++,132574
+45,,Masters,Data Scientist,Remote,Java,122443
+38,16.0,Bachelors,Manager,Remote,SQL,107370
+31,7.0,Bachelors,Developer,Austin,SQL,75689
+51,29.0,Bachelors,Developer,Austin,SQL,132205
+44,19.0,Bachelors,Developer,San Francisco,Python,120800
+53,,Bachelors,Developer,Austin,AWS,139124
+38,13.0,Bachelors,Manager,Remote,SQL,103896
+38,15.0,Masters,Developer,New York,C++,106075
+35,12.0,Bachelors,Data Scientist,Remote,Java,93841
+30,4.0,Bachelors,Director,San Francisco,C++,76555
+23,0.0,PhD,Director,Remote,Python,53075
+46,20.0,Bachelors,Developer,New York,Python,124644
+30,5.0,Bachelors,Developer,Austin,C++,65756
+43,17.0,PhD,Developer,New York,AWS,138797
+25,3.0,Bachelors,Manager,Austin,Python,68812
+47,22.0,Bachelors,Director,Austin,Python,166226
+50,27.0,Bachelors,Developer,Remote,C++,119244
+55,31.0,Bachelors,Data Scientist,Remote,Python,146459
+44,19.0,Masters,Developer,Remote,AWS,112289
+58,33.0,PhD,Director,San Francisco,AWS,404279
+32,10.0,Bachelors,Developer,Remote,AWS,76687
+27,3.0,Masters,Director,San Francisco,Java,72018
+39,16.0,Masters,Developer,Remote,AWS,103214
+42,17.0,Bachelors,Data Scientist,Austin,AWS,103862
+57,32.0,Masters,Developer,San Francisco,Java,196650
+59,37.0,Bachelors,Data Scientist,New York,SQL,200679
+55,29.0,Bachelors,Data Scientist,San Francisco,Python,183568
+38,15.0,Bachelors,Developer,San Francisco,AWS,107268
+58,34.0,Bachelors,Data Scientist,New York,Python,179766
+46,21.0,Bachelors,Manager,San Francisco,C++,163893
+59,34.0,PhD,Developer,Austin,Python,205574
+33,10.0,Bachelors,Developer,Remote,Java,78287
+44,18.0,Bachelors,Data Scientist,New York,Python,127251
+43,18.0,Bachelors,Data Scientist,Remote,Python,106785
+42,19.0,Masters,Developer,Austin,Python,112883
+48,26.0,Masters,Manager,New York,SQL,204781
+52,26.0,Masters,Data Scientist,Remote,SQL,135760
+27,3.0,Masters,Data Scientist,Remote,C++,66415
+48,23.0,PhD,Director,Austin,Java,226341
+55,32.0,Bachelors,Manager,Remote,Python,164543
+33,11.0,Masters,Manager,Austin,Python,102881
+28,4.0,PhD,Developer,San Francisco,Python,76220
+31,8.0,PhD,Manager,Austin,Python,97792
+38,15.0,PhD,Developer,San Francisco,SQL,135924
+47,23.0,Bachelors,Director,New York,C++,197312
+42,20.0,Bachelors,Manager,Remote,AWS,126464
+49,27.0,Bachelors,Data Scientist,Austin,Java,132997
+23,0.0,Masters,Director,Austin,Python,45264
+22,0.0,Bachelors,Developer,Remote,C++,58405
+57,33.0,Bachelors,Director,Remote,AWS,212392
+47,23.0,PhD,Developer,New York,C++,178004
+50,26.0,Bachelors,Director,New York,SQL,218770
+42,20.0,PhD,Developer,Austin,AWS,139299
+32,7.0,Bachelors,Manager,New York,C++,87566
+32,6.0,Bachelors,Data Scientist,San Francisco,SQL,79378
+57,34.0,Bachelors,Developer,New York,C++,176630
+56,33.0,Masters,Director,New York,C++,305975
+55,31.0,Bachelors,Developer,Austin,AWS,147777
+45,20.0,Bachelors,Developer,San Francisco,SQL,115669
+43,21.0,PhD,Developer,New York,Python,167861
+26,1.0,Bachelors,Director,San Francisco,Java,54885
+54,29.0,Masters,Data Scientist,San Francisco,AWS,202059
+57,35.0,Masters,Manager,San Francisco,SQL,276073
+41,17.0,Bachelors,Data Scientist,Remote,C++,93857
+40,15.0,Masters,Developer,Remote,SQL,100299
+56,33.0,Bachelors,Director,Remote,Java,202872
+38,16.0,Masters,Data Scientist,Remote,Java,105026
+55,29.0,Bachelors,Developer,Austin,Python,132938
+30,6.0,Masters,Manager,New York,Python,85413
+47,25.0,Bachelors,Manager,Remote,Java,148486
+23,0.0,Masters,Manager,Austin,AWS,47551
+30,4.0,Bachelors,Developer,New York,AWS,65973
+30,5.0,Bachelors,Director,Remote,C++,77997
+38,13.0,Bachelors,Data Scientist,New York,Python,98444
+22,0.0,Bachelors,Manager,Remote,C++,47036
+46,,PhD,Developer,Austin,Python,164847
+46,24.0,Bachelors,Developer,San Francisco,Java,143203
+56,32.0,PhD,Data Scientist,San Francisco,AWS,258466
+24,0.0,PhD,Manager,New York,AWS,52508
+58,32.0,Masters,Developer,Austin,Java,159210
+51,28.0,Bachelors,Data Scientist,San Francisco,C++,166316
+59,35.0,Bachelors,Director,Remote,C++,221977
+55,33.0,Masters,Director,San Francisco,SQL,317655
+33,,Bachelors,Director,New York,Python,107264
+40,16.0,Bachelors,Manager,New York,C++,126314
+58,34.0,Masters,Data Scientist,Austin,Java,190193
+38,14.0,PhD,Data Scientist,New York,C++,134891
+31,8.0,Masters,Developer,San Francisco,AWS,93396
+33,8.0,Bachelors,Developer,San Francisco,Python,81004
+37,,Masters,Developer,San Francisco,SQL,100911
+45,21.0,Bachelors,Data Scientist,San Francisco,Python,138565
+40,16.0,Bachelors,Developer,Austin,AWS,95485
+29,5.0,PhD,Data Scientist,Remote,AWS,85698
+52,27.0,Bachelors,Data Scientist,Remote,AWS,134226
+42,20.0,Bachelors,Director,Austin,AWS,152669
+38,16.0,Bachelors,Developer,New York,Java,120797
+44,21.0,PhD,Director,Remote,SQL,201065
+58,36.0,Masters,Manager,New York,AWS,269334
+37,13.0,Masters,Manager,Remote,AWS,113666
+27,3.0,Masters,Manager,New York,C++,60454
+29,5.0,Bachelors,Data Scientist,Austin,SQL,62363
+46,23.0,Bachelors,Data Scientist,San Francisco,Python,156911
+39,15.0,Bachelors,Data Scientist,New York,SQL,108276
+46,,Bachelors,Developer,San Francisco,SQL,148593
+33,8.0,Bachelors,Director,New York,SQL,99573
+36,11.0,PhD,Data Scientist,New York,AWS,114865
+47,21.0,Bachelors,Director,New York,AWS,195006
+47,25.0,Bachelors,Director,New York,Java,214188
+53,29.0,Bachelors,Director,New York,Python,236196
+31,6.0,Bachelors,Developer,San Francisco,C++,69983
+37,15.0,PhD,Developer,New York,SQL,128041
+28,3.0,Bachelors,Manager,San Francisco,Python,72588
+38,14.0,Bachelors,Manager,Austin,Python,112627
+44,19.0,Masters,Director,Remote,Java,155065
+47,21.0,Bachelors,Manager,New York,C++,156276
+42,16.0,Bachelors,Director,Remote,SQL,127426
+43,18.0,Bachelors,Developer,San Francisco,C++,121780
+28,6.0,Masters,Developer,Austin,Java,68582
+35,13.0,PhD,Developer,Austin,AWS,113989
+36,14.0,Masters,Data Scientist,Austin,Python,105433
+28,3.0,Bachelors,Director,Remote,SQL,66447
+30,8.0,PhD,Developer,San Francisco,AWS,92877
+29,,Bachelors,Director,New York,Java,78728
+44,18.0,Bachelors,Manager,New York,C++,154008
+50,26.0,Bachelors,Manager,San Francisco,Python,200960
+39,17.0,Bachelors,Developer,Remote,SQL,95552
+52,28.0,Masters,Director,New York,AWS,275393
+51,29.0,Masters,Developer,San Francisco,AWS,191784
+56,31.0,PhD,Manager,New York,Python,281234
+39,15.0,Masters,Developer,Austin,C++,100375
+38,13.0,Masters,Director,New York,Java,154431
+35,10.0,Bachelors,Manager,Remote,C++,89100
+52,29.0,Bachelors,Data Scientist,San Francisco,C++,172400
+45,23.0,Masters,Manager,Remote,C++,157934
+56,30.0,Bachelors,Data Scientist,San Francisco,Python,171488
+55,33.0,PhD,Developer,Austin,Python,199075
+24,,Bachelors,Developer,San Francisco,Java,43805
+58,36.0,Bachelors,Director,New York,C++,277250
+47,22.0,Bachelors,Data Scientist,New York,Python,133586
+44,20.0,Bachelors,Developer,Austin,Java,111816
+36,12.0,Bachelors,Data Scientist,San Francisco,Java,98104
+25,2.0,Masters,Developer,Austin,C++,51109
+50,24.0,Bachelors,Manager,New York,SQL,173346
+43,17.0,Masters,Developer,Remote,C++,112544
+46,20.0,Bachelors,Director,Austin,SQL,161194
+34,9.0,Bachelors,Manager,Remote,Java,93029
+39,,Bachelors,Director,Remote,Python,120226
+54,30.0,PhD,Manager,San Francisco,AWS,293263
+37,12.0,Bachelors,Data Scientist,Austin,Java,92761
+23,1.0,Masters,Director,Remote,Python,55374
+56,30.0,Bachelors,Developer,Remote,Java,136310
+55,29.0,Masters,Data Scientist,San Francisco,C++,198833
+51,29.0,Bachelors,Developer,San Francisco,SQL,159157
+34,8.0,Masters,Manager,New York,Java,105251
+34,12.0,Masters,Manager,Remote,Python,106021
+39,14.0,PhD,Developer,New York,C++,122282
+53,29.0,Bachelors,Developer,Remote,AWS,125806
+53,31.0,Bachelors,Data Scientist,New York,C++,169410
+56,33.0,Bachelors,Developer,San Francisco,SQL,173691
+50,28.0,PhD,Director,Austin,C++,274412
+50,24.0,Masters,Director,San Francisco,AWS,254041
+37,,Masters,Developer,New York,Python,102160
+31,6.0,Bachelors,Director,New York,Java,86689
+51,29.0,Bachelors,Developer,Austin,SQL,144478
+46,,Bachelors,Data Scientist,Remote,AWS,105287
+41,18.0,PhD,Director,New York,SQL,226491
+26,1.0,Masters,Director,New York,C++,57062
+22,0.0,PhD,Developer,New York,SQL,45149
+51,25.0,Bachelors,Director,Austin,AWS,186822
+24,0.0,Masters,Manager,San Francisco,Java,48901
+35,10.0,Masters,Data Scientist,New York,Java,103755
+51,29.0,Bachelors,Data Scientist,Austin,SQL,150040
+25,0.0,PhD,Director,New York,Python,59531
+39,15.0,PhD,Director,Remote,SQL,156933
+58,33.0,PhD,Manager,Austin,C++,264883
+46,21.0,Masters,Manager,New York,Java,171179
+22,0.0,Bachelors,Director,Austin,Java,49447
+36,11.0,Bachelors,Director,New York,Java,118954
+30,5.0,PhD,Manager,San Francisco,Python,93962
+36,10.0,Bachelors,Developer,New York,Python,88891
+45,21.0,Masters,Manager,Austin,AWS,151337
+25,0.0,Masters,Developer,Remote,SQL,53291
+33,10.0,Masters,Data Scientist,Remote,SQL,83738
+58,35.0,PhD,Data Scientist,Remote,C++,201841
+58,34.0,Bachelors,Manager,New York,Java,221301
+27,5.0,Bachelors,Developer,San Francisco,Python,62116
+45,23.0,Bachelors,Manager,New York,C++,170577
+32,10.0,Bachelors,Manager,Remote,C++,87522
+34,11.0,Bachelors,Developer,Austin,Python,82831
+55,33.0,Bachelors,Manager,Remote,SQL,174304
+46,20.0,PhD,Data Scientist,Austin,Java,157234
+28,3.0,PhD,Director,San Francisco,SQL,89184
+25,2.0,Bachelors,Director,Austin,C++,67554
+29,5.0,Bachelors,Manager,New York,Java,74775
+41,17.0,PhD,Developer,New York,AWS,136222
+50,25.0,Bachelors,Developer,New York,C++,139920
+31,8.0,Bachelors,Data Scientist,Austin,SQL,77972
+55,33.0,Bachelors,Developer,New York,SQL,172863
+47,25.0,Masters,Developer,New York,SQL,159556
+24,0.0,Bachelors,Data Scientist,New York,Python,44868
+27,1.0,PhD,Manager,San Francisco,C++,55513
+26,4.0,Bachelors,Director,Austin,Java,68469
+26,2.0,Masters,Data Scientist,Austin,SQL,60615
+44,20.0,Bachelors,Manager,Remote,SQL,128418
+30,4.0,Bachelors,Data Scientist,Austin,Python,66673
+56,31.0,Masters,Manager,San Francisco,Java,254617
+41,19.0,Masters,Data Scientist,Austin,C++,114944
+56,30.0,Masters,Manager,San Francisco,AWS,237931
+39,13.0,Masters,Data Scientist,San Francisco,Python,116223
+38,16.0,PhD,Manager,Austin,C++,151290
+45,23.0,PhD,Data Scientist,Remote,AWS,158733
+24,0.0,Masters,Director,New York,SQL,50389
+53,28.0,Bachelors,Director,New York,SQL,226560
+56,31.0,Bachelors,Developer,Austin,Java,146311
+59,37.0,Bachelors,Manager,Austin,AWS,205314
+34,11.0,Masters,Data Scientist,San Francisco,SQL,104618
+46,20.0,Bachelors,Manager,Austin,SQL,125927
+30,4.0,Bachelors,Director,San Francisco,Java,78506
+25,3.0,PhD,Manager,Remote,C++,68154
+35,12.0,PhD,Data Scientist,Austin,SQL,104419
+58,34.0,PhD,Manager,New York,Python,310762
+55,33.0,Bachelors,Data Scientist,New York,Python,183954
+32,10.0,Masters,Director,Austin,C++,115045
+24,0.0,Bachelors,Director,San Francisco,AWS,50059
+49,27.0,Bachelors,Director,New York,Java,229690
+50,28.0,Bachelors,Developer,San Francisco,Python,161038
+30,8.0,Bachelors,Director,Austin,Python,89689
+24,0.0,Bachelors,Manager,Austin,C++,49012
+46,22.0,PhD,Developer,New York,AWS,171584
+55,31.0,Bachelors,Director,Austin,AWS,207238
+33,11.0,Masters,Manager,Remote,C++,95238
+30,,Masters,Manager,Remote,Python,71555
+36,12.0,Bachelors,Manager,New York,Java,116524
+46,22.0,Bachelors,Data Scientist,Remote,Python,120445
+26,2.0,Bachelors,Developer,San Francisco,AWS,62266
+32,6.0,Masters,Manager,New York,Python,86937
+55,29.0,Bachelors,Data Scientist,New York,Java,159695
+45,23.0,Bachelors,Director,San Francisco,SQL,210477
+36,11.0,Bachelors,Manager,Remote,Python,81614
+59,35.0,Masters,Data Scientist,Remote,C++,181243
+29,4.0,PhD,Manager,Remote,SQL,68594
+26,0.0,Bachelors,Developer,New York,C++,47333
+47,,Masters,Developer,New York,C++,146013
+39,13.0,Masters,Director,Remote,C++,117743
+27,2.0,PhD,Manager,Austin,Python,56653
+58,32.0,PhD,Data Scientist,Remote,AWS,193900
+34,12.0,Masters,Director,San Francisco,SQL,153690
+49,23.0,Masters,Manager,New York,Java,188745
+26,3.0,PhD,Director,San Francisco,AWS,81395
+34,9.0,Bachelors,Data Scientist,San Francisco,Python,94952
+38,15.0,Bachelors,Director,New York,C++,150382
+53,27.0,Bachelors,Director,Austin,Java,198306
+50,28.0,PhD,Director,Remote,SQL,257998
+24,,PhD,Manager,San Francisco,AWS,48497
+55,29.0,Bachelors,Data Scientist,New York,AWS,175706
+48,26.0,Masters,Developer,San Francisco,Java,160142
+34,9.0,Bachelors,Manager,Remote,Python,91310
+54,31.0,Bachelors,Developer,Austin,SQL,147511
+27,4.0,PhD,Developer,Austin,Java,69241
+45,22.0,Bachelors,Manager,Austin,C++,142800
+40,15.0,Bachelors,Manager,New York,SQL,124822
+37,15.0,Masters,Data Scientist,New York,AWS,126797
+49,24.0,Masters,Data Scientist,Austin,Java,144841
+54,31.0,Bachelors,Director,Remote,AWS,197021
+34,8.0,Masters,Developer,Remote,AWS,80430
+46,22.0,Masters,Data Scientist,New York,AWS,162468
+57,32.0,Bachelors,Director,Austin,Python,213164
+48,23.0,Bachelors,Data Scientist,Remote,AWS,130095
+59,37.0,Masters,Manager,Remote,C++,212648
+28,6.0,Bachelors,Data Scientist,Remote,C++,63019
+26,1.0,PhD,Developer,New York,SQL,49176
+52,,PhD,Data Scientist,Austin,AWS,193554
+44,20.0,PhD,Developer,San Francisco,AWS,160601
+31,9.0,Bachelors,Manager,Austin,Java,82009
+53,30.0,PhD,Developer,Austin,Python,181557
+51,25.0,Bachelors,Data Scientist,New York,SQL,149692
+52,30.0,Bachelors,Director,Remote,AWS,196974
+39,16.0,Bachelors,Manager,Remote,Java,116686
+57,34.0,Bachelors,Data Scientist,New York,Python,190731
+23,0.0,Masters,Manager,New York,SQL,55123
+35,11.0,Bachelors,Manager,New York,SQL,104132
+34,,Bachelors,Data Scientist,New York,AWS,72474
+50,27.0,Masters,Data Scientist,New York,SQL,168987
+33,10.0,Bachelors,Director,San Francisco,Java,125289
+23,0.0,Masters,Manager,Austin,SQL,54219
+53,31.0,Bachelors,Manager,Austin,C++,177116
+34,12.0,PhD,Data Scientist,Austin,Java,102196
+48,23.0,PhD,Developer,Remote,Python,137914
+38,14.0,Bachelors,Data Scientist,San Francisco,Python,110933
+52,27.0,Bachelors,Manager,Austin,AWS,164283
+55,31.0,Bachelors,Data Scientist,Remote,AWS,147283
+45,19.0,PhD,Director,San Francisco,C++,247818
+56,33.0,Bachelors,Developer,San Francisco,Python,177480
+27,1.0,Bachelors,Data Scientist,Remote,Python,58597
+40,16.0,Bachelors,Director,San Francisco,Python,151695
+51,28.0,Bachelors,Manager,Remote,Python,157427
+28,6.0,Bachelors,Data Scientist,Austin,SQL,68129
+31,9.0,PhD,Manager,Remote,Java,104594
+53,28.0,Bachelors,Director,San Francisco,Java,249123
+55,31.0,Bachelors,Manager,Austin,C++,176718
+49,25.0,PhD,Director,Austin,SQL,249963
+36,14.0,PhD,Director,New York,Python,174570
+51,25.0,Bachelors,Director,New York,Python,215750
+58,,Bachelors,Data Scientist,San Francisco,AWS,201349
+50,24.0,Bachelors,Manager,Remote,AWS,147713
+43,17.0,PhD,Manager,Remote,C++,144393
+25,3.0,Bachelors,Developer,San Francisco,Python,66272
+41,19.0,PhD,Developer,Austin,C++,130150
+53,31.0,Masters,Developer,San Francisco,SQL,181556
+57,32.0,Masters,Developer,San Francisco,Java,199287
+25,0.0,Bachelors,Manager,Austin,Python,47167
+48,24.0,Bachelors,Director,Remote,SQL,161386
+38,15.0,Bachelors,Director,San Francisco,Python,159791
+33,8.0,Bachelors,Data Scientist,Remote,AWS,79801
+43,19.0,Masters,Director,San Francisco,C++,210583
+38,12.0,PhD,Manager,Austin,AWS,124687
+31,9.0,Masters,Manager,Austin,Java,95674
+22,0.0,Masters,Manager,New York,AWS,46735
+43,20.0,Bachelors,Data Scientist,Austin,Python,118813
+47,22.0,Bachelors,Developer,New York,AWS,121503
+39,14.0,Bachelors,Director,San Francisco,Python,142915
+35,,Masters,Manager,Remote,Java,100476
+50,26.0,PhD,Manager,Austin,AWS,216507
+33,9.0,Masters,Developer,Austin,C++,80888
+57,32.0,Bachelors,Manager,Austin,C++,191202
+56,31.0,Bachelors,Director,San Francisco,C++,271637
+33,11.0,Masters,Data Scientist,New York,AWS,98267
+28,4.0,Bachelors,Manager,San Francisco,AWS,75007
+50,27.0,PhD,Director,Remote,AWS,244789
+32,8.0,PhD,Manager,San Francisco,Python,117886
+54,32.0,Masters,Developer,Remote,Java,157939
+27,2.0,Bachelors,Manager,Austin,C++,63974
+36,11.0,Bachelors,Manager,Remote,Python,92590
+53,31.0,Bachelors,Data Scientist,Remote,C++,150071
+32,9.0,Bachelors,Developer,New York,Python,84607
+44,19.0,Bachelors,Developer,Remote,AWS,101975
+47,21.0,Masters,Data Scientist,Remote,C++,123331
+55,30.0,Masters,Manager,San Francisco,AWS,243403
+55,29.0,Bachelors,Director,Austin,C++,208699
+50,28.0,Bachelors,Developer,San Francisco,SQL,159704
+25,3.0,Bachelors,Developer,San Francisco,Python,63004
+38,13.0,Bachelors,Manager,Austin,SQL,107004
+56,32.0,PhD,Manager,Austin,Python,252883
+34,8.0,Bachelors,Developer,Remote,Java,81666
+36,13.0,Bachelors,Manager,Remote,C++,96500
+50,25.0,Bachelors,Director,New York,Java,214161
+50,27.0,PhD,Developer,San Francisco,Java,206812
+32,7.0,Masters,Director,Austin,Python,83053
+53,29.0,Bachelors,Director,Remote,SQL,189973
+23,0.0,Masters,Manager,Austin,AWS,45318
+35,11.0,Masters,Director,Remote,Python,113818
+41,17.0,PhD,Manager,New York,AWS,178388
+43,21.0,Bachelors,Data Scientist,New York,Java,135087
+32,10.0,PhD,Manager,Austin,AWS,110349
+48,22.0,PhD,Director,New York,SQL,261815
+24,1.0,PhD,Data Scientist,Austin,Python,58453
+38,13.0,Masters,Manager,Remote,SQL,104923
+49,24.0,Masters,Director,San Francisco,SQL,242984
+50,28.0,Bachelors,Developer,New York,Python,151585
+42,17.0,Masters,Developer,Remote,SQL,110434
+37,15.0,Masters,Manager,San Francisco,C++,151726
+58,32.0,Masters,Manager,San Francisco,C++,260541
+41,18.0,Bachelors,Developer,San Francisco,C++,126453
+27,1.0,Masters,Director,Remote,AWS,61242
+40,16.0,PhD,Director,Remote,SQL,164985
+26,2.0,Bachelors,Director,Austin,Python,62038
+24,0.0,PhD,Manager,San Francisco,Python,51452
+22,0.0,Masters,Data Scientist,San Francisco,AWS,49566
+59,34.0,PhD,Data Scientist,San Francisco,Python,274461
+36,13.0,Bachelors,Data Scientist,Austin,C++,92139
+55,31.0,Bachelors,Data Scientist,San Francisco,SQL,180489
+56,32.0,PhD,Data Scientist,Remote,Python,179602
+46,22.0,Bachelors,Manager,San Francisco,Python,166128
+45,22.0,PhD,Manager,New York,Java,209743
+33,9.0,Bachelors,Data Scientist,Remote,Java,76528
+39,16.0,Masters,Manager,Austin,Java,124372
+36,12.0,Bachelors,Manager,San Francisco,SQL,118563
+37,11.0,Masters,Data Scientist,New York,C++,107814
+48,22.0,Bachelors,Director,Austin,C++,168644
+29,6.0,Bachelors,Manager,Austin,C++,70280
+46,,Bachelors,Director,Remote,SQL,148632
+38,15.0,Bachelors,Manager,Austin,SQL,122467
+50,24.0,PhD,Manager,Austin,Java,209112
+29,3.0,PhD,Data Scientist,Austin,Python,57820
+36,13.0,Bachelors,Manager,Austin,AWS,97384
+48,23.0,Masters,Developer,San Francisco,AWS,149142
+28,2.0,Bachelors,Developer,San Francisco,Python,52115
+24,0.0,Masters,Data Scientist,San Francisco,Java,51258
+50,25.0,PhD,Director,San Francisco,Python,310467
+45,22.0,PhD,Director,New York,Python,259647
+24,0.0,Bachelors,Director,San Francisco,AWS,55196
+41,19.0,Masters,Developer,Austin,Java,121050
+36,14.0,Bachelors,Director,San Francisco,SQL,139756
+46,20.0,PhD,Director,San Francisco,AWS,265509
+51,25.0,Bachelors,Data Scientist,Remote,SQL,126780
+35,11.0,Masters,Director,Austin,Java,123921
+28,3.0,Masters,Developer,San Francisco,Python,61188
+38,16.0,Masters,Developer,San Francisco,C++,123943
+41,15.0,Bachelors,Developer,San Francisco,C++,98636
+57,32.0,PhD,Data Scientist,New York,Java,244415
+30,4.0,Bachelors,Data Scientist,San Francisco,C++,62165
+59,33.0,Masters,Manager,Remote,SQL,195335
+43,21.0,Bachelors,Director,Austin,C++,158979
+23,1.0,Bachelors,Data Scientist,Austin,Java,62302
+45,19.0,Masters,Developer,San Francisco,Java,135576
+29,6.0,Bachelors,Developer,San Francisco,SQL,78111
+32,6.0,Bachelors,Data Scientist,San Francisco,C++,75620
+34,8.0,Bachelors,Data Scientist,Austin,C++,72254
+38,14.0,Bachelors,Data Scientist,Austin,Python,91148
+29,5.0,Masters,Manager,New York,AWS,77096
+42,,PhD,Developer,Remote,Java,122528
+39,16.0,Bachelors,Manager,New York,Python,133649
+51,28.0,Bachelors,Manager,Remote,Java,153485
+39,13.0,Bachelors,Director,New York,Python,131698
+52,28.0,Bachelors,Developer,Austin,AWS,129594
+59,36.0,Masters,Developer,New York,Python,199550
+53,31.0,Masters,Data Scientist,Remote,Java,154096
+32,6.0,Bachelors,Data Scientist,San Francisco,C++,80680
