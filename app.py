@@ -1,52 +1,105 @@
 import streamlit as st
+import streamlit.components.v1 as components
 import pandas as pd
 import joblib
 import numpy as np
-import matplotlib.pyplot as plt
-import seaborn as sns
+import os
 from sklearn.preprocessing import StandardScaler
 
 # Set page configuration
 st.set_page_config(
     page_title="Employee Salary Predictor",
     page_icon="💼",
-    layout="wide",
-    initial_sidebar_state="expanded"
+    layout="centered",
+    initial_sidebar_state="collapsed"
 )
 
-# Custom CSS for better styling
+# Load CSS from file
+def local_css(file_name):
+    if os.path.exists(file_name):
+        with open(file_name) as f:
+            st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
+
+local_css("assets/style.css")
+
 st.markdown("""
-<style>
-    .main-header {
-        font-size: 2.5rem;
-        font-weight: bold;
-        color: #1f77b4;
-        text-align: center;
-        margin-bottom: 2rem;
+    <style>
+    .stApp, .stApp *:not(input):not(textarea):not([contenteditable='true']) {
+        cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'><defs><radialGradient id='g' cx='50%25' cy='35%25' r='60%25'><stop offset='0%25' stop-color='%23ffd36b'/><stop offset='100%25' stop-color='%23b8860b'/></radialGradient></defs><circle cx='12' cy='12' r='10' fill='url(%23g)' stroke='%230a0a0a' stroke-width='1'/><text x='12' y='16' text-anchor='middle' font-size='12' font-weight='700' fill='%230a0a0a'>%E2%82%B9</text></svg>") 12 12, auto !important;
     }
-    .prediction-card {
-        background-color: #f0f2f6;
-        padding: 1.5rem;
-        border-radius: 10px;
-        border-left: 5px solid #1f77b4;
-        margin: 1rem 0;
-    }
-    .metric-card {
-        background-color: white;
-        padding: 1rem;
-        border-radius: 8px;
-        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-        text-align: center;
-        margin: 0.5rem;
-    }
-    .sidebar-header {
-        font-size: 1.2rem;
-        font-weight: bold;
-        color: #1f77b4;
-        margin-bottom: 1rem;
-    }
-</style>
+    </style>
 """, unsafe_allow_html=True)
+
+components.html("""
+<!DOCTYPE html><html><head><meta charset='utf-8'></head><body></body>
+<script>
+(function(){
+  var d;try{d=(window.parent&&window.parent.document)?window.parent.document:document}catch(e){d=document}
+  if(d.getElementById('mc-wheel-fix')) return;
+  var f=d.createElement('div');f.id='mc-wheel-fix';f.style.display='none';d.body.appendChild(f);
+  function scEl(){return d.scrollingElement||d.documentElement||d.body}
+  function onWheel(e){
+    if(e.ctrlKey) return;
+    e.preventDefault();
+    scEl().scrollTop += e.deltaY;
+  }
+  function bind(){
+    var nodes=d.querySelectorAll('input,[role="combobox"],select');
+    nodes.forEach(function(el){
+      if(el.__mcWheel) return;
+      el.addEventListener('wheel', onWheel, {passive:false});
+      el.__mcWheel=true;
+    });
+  }
+  bind();
+  var MO=(d.defaultView||window).MutationObserver;
+  if(MO){ new MO(bind).observe(d.body,{childList:true,subtree:true}); }
+})();
+</script>
+""", height=0, width=0)
+
+components.html("""
+<!DOCTYPE html><html><head><meta charset='utf-8'></head><body></body>
+<script>
+(function(){
+  var d;try{d=(window.parent&&window.parent.document)?window.parent.document:document}catch(e){d=document}
+  if(d.getElementById('mc-mini-sparkle-style')) return;
+  var css='#mc-mini-sparkles{position:fixed;left:0;top:0;width:100vw;height:100vh;pointer-events:none;z-index:2147483644}'+
+          '.mc-mini-s{position:absolute;font-size:10px;line-height:1;opacity:.95;color:#ffd36b;text-shadow:0 0 6px rgba(255,211,107,.8),0 0 14px rgba(255,193,7,.5)}'+
+          '.mc-mini-dot{width:6px;height:6px;border-radius:50%;background:radial-gradient(circle,#ffd36b 0%,rgba(255,193,7,.6) 45%,transparent 70%);box-shadow:0 0 8px rgba(255,193,7,.6)}'+
+          '@keyframes mcFadeRise{0%{transform:translate3d(0,0,0) scale(1);opacity:.95}100%{transform:translate3d(var(--dx),var(--dy),0) scale(.85);opacity:0}}';
+  var st=d.createElement('style');st.id='mc-mini-sparkle-style';st.textContent=css;d.head.appendChild(st);
+  var layer=d.getElementById('mc-mini-sparkles')||d.body.appendChild(Object.assign(d.createElement('div'),{id:'mc-mini-sparkles'}));
+  var last=0, parts=[];
+  function spawn(x,y,vx,vy){
+    var isIcon=Math.random()<0.35;
+    var el=d.createElement(isIcon?'div':'div');
+    if(isIcon){el.className='mc-mini-s';el.innerHTML='&#8377;';}
+    else{el.className='mc-mini-dot';}
+    el.style.left=x+'px';el.style.top=y+'px';
+    el.style.position='absolute';
+    var dx=((-vx*6)+(Math.random()-0.5)*10).toFixed(1)+'px';
+    var dy=((-vy*4)-6+(Math.random()-0.5)*6).toFixed(1)+'px';
+    el.style.setProperty('--dx',dx);
+    el.style.setProperty('--dy',dy);
+    el.style.animation='mcFadeRise 600ms ease-out forwards';
+    layer.appendChild(el);
+    parts.push(el);
+    if(parts.length>32){var r=parts.shift();if(r&&r.parentNode){r.parentNode.removeChild(r);}}
+    el.addEventListener('animationend',function(){if(el&&el.parentNode){el.parentNode.removeChild(el);}});
+  }
+  var pmx=0,pmy=0;
+  d.addEventListener('mousemove',function(e){
+    var now=performance.now(); if(now-last<40) return; last=now;
+    var vx=e.clientX-pmx, vy=e.clientY-pmy; pmx=e.clientX; pmy=e.clientY;
+    var sp=Math.min(1, Math.hypot(vx,vy)/30);
+    if(sp<0.15) return;
+    var n= sp>0.6?2:1;
+    for(var i=0;i<n;i++){spawn(e.clientX, e.clientY, vx, vy);}
+  });
+})();
+</script>
+""", height=0, width=0)
 
 # Load models
 @st.cache_resource
@@ -62,167 +115,129 @@ def load_models():
         return None, None, None, None
 
 def main():
-    # Load models
     reg_model, clf_model, kmeans_model, cluster_scaler = load_models()
 
     if reg_model is None:
         st.error("Failed to load models. Please ensure the models are trained and saved.")
         return
 
-    # Main header
-    st.markdown('<h1 class="main-header">💼 Employee Salary Predictor</h1>', unsafe_allow_html=True)
-    st.markdown("""
-    <div style='text-align: center; margin-bottom: 2rem;'>
-        Predict employee salaries based on professional characteristics using machine learning models.
-        Enter the details below and click "Predict Salary" to get insights.
-    </div>
-    """, unsafe_allow_html=True)
+    # Header
+    st.markdown('<h1 class="main-header">Employee Salary Predictor</h1>', unsafe_allow_html=True)
+    st.markdown('<p class="sub-header">Modern ML-driven salary insights for the Indian Market</p>', unsafe_allow_html=True)
 
-    # Create two columns for layout
-    col1, col2 = st.columns([1, 1])
+    if 'first_load' not in st.session_state:
+        st.session_state['age'] = None
+        st.session_state['experience'] = None
+        st.session_state['education'] = None
+        st.session_state['job_role'] = None
+        st.session_state['location'] = None
+        st.session_state['skills'] = None
+        st.session_state['show_graph'] = None
+        st.session_state['first_load'] = True
+    if 'show_graph' not in st.session_state:
+        st.session_state['show_graph'] = None
 
-    with col1:
-        st.markdown('<h3 class="sidebar-header">📝 Employee Details</h3>', unsafe_allow_html=True)
+    # Input Section
+    st.markdown('<h3 class="section-title">Employee Details</h3>', unsafe_allow_html=True)
+    
+    age = st.number_input("Age", min_value=18, max_value=65, value=st.session_state.get('age', None), key='age', placeholder="Enter age")
+    experience = st.number_input("Years of Experience", min_value=0, max_value=45, value=st.session_state.get('experience', None), key='experience', placeholder="Enter years")
+    
+    education = st.selectbox("Education", ["Bachelors", "Masters", "PhD"], index=None, key='education', placeholder="Select Education")
+    job_role = st.selectbox("Job Role", ["Developer", "Data Scientist", "Manager", "Director"], index=None, key='job_role', placeholder="Select Role")
+    location = st.selectbox("Location", ["New York", "San Francisco", "Austin", "Remote"], index=None, key='location', placeholder="Select Location")
+    skills = st.selectbox("Primary Skill", ["Python", "Java", "SQL", "C++", "AWS"], index=None, key='skills', placeholder="Select Skill")
+    
+    st.markdown('<div style="text-align: center; margin-top: 2rem;">', unsafe_allow_html=True)
+    predict_button = st.button("Predict Salary", type="primary")
+    st.markdown('</div>', unsafe_allow_html=True)
 
-        # Input widgets
-        age = st.slider("Age", min_value=22, max_value=65, value=30,
-                       help="Employee's current age")
-
-        experience = st.slider("Years of Experience", min_value=0, max_value=25, value=5,
-                              help="Total professional experience in years")
-
-        education = st.selectbox("Education Level",
-                                ["Bachelors", "Masters", "PhD"],
-                                help="Highest level of education attained")
-
-        job_role = st.selectbox("Job Role",
-                               ["Developer", "Data Scientist", "Manager", "Director"],
-                               help="Current job position")
-
-        location = st.selectbox("Work Location",
-                               ["New York", "San Francisco", "Austin", "Remote"],
-                               help="Primary work location")
-
-        skills = st.selectbox("Primary Skill",
-                             ["Python", "Java", "SQL", "C++", "AWS"],
-                             help="Main technical skill or expertise area")
-
-        # Predict button
-        predict_button = st.button("🔮 Predict Salary", type="primary", use_container_width=True)
-
-    with col2:
-        st.markdown('<h3 class="sidebar-header">📊 Prediction Results</h3>', unsafe_allow_html=True)
-
-        if predict_button:
-            # Create input DataFrame
-            input_data = pd.DataFrame({
-                'Age': [age],
-                'Experience': [experience],
-                'Education': [education],
-                'Job Role': [job_role],
-                'Location': [location],
-                'Skills': [skills]
-            })
-
-            # Make predictions
-            with st.spinner("Analyzing employee profile..."):
+    # Results Section
+    if predict_button:
+        if any(v is None for v in [age, experience, education, job_role, location, skills]):
+            st.warning("Please fill in all details before predicting.")
+        else:
+            with st.spinner("Analyzing profile..."):
                 try:
-                    # Regression prediction
-                    salary_pred = reg_model.predict(input_data)[0]
-
-                    # Classification prediction
-                    category_pred = clf_model.predict(input_data)[0]
-
-                    # Clustering prediction (needs Experience and predicted Salary)
-                    clust_input = pd.DataFrame({
-                        'Experience': [experience],
-                        'Salary': [salary_pred]
+                    input_data = pd.DataFrame({
+                        'Age': [age], 'Experience': [experience], 'Education': [education],
+                        'Job Role': [job_role], 'Location': [location], 'Skills': [skills]
                     })
+                    
+                    salary_pred = reg_model.predict(input_data)[0]
+                    category_pred = clf_model.predict(input_data)[0]
+                    
+                    clust_input = pd.DataFrame({'Experience': [experience], 'Salary': [salary_pred]})
                     clust_scaled = cluster_scaler.transform(clust_input)
                     cluster_pred = kmeans_model.predict(clust_scaled)[0]
-
-                    # Display results
-                    st.markdown('<div class="prediction-card">', unsafe_allow_html=True)
-                    st.markdown("### 🎯 Prediction Results")
-
-                    # Salary prediction with formatting
+                    
                     st.markdown(f"""
-                    <div style='display: flex; justify-content: space-around; margin: 1rem 0;'>
-                        <div class='metric-card'>
-                            <h4 style='color: #1f77b4; margin: 0;'>Predicted Salary</h4>
-                            <h2 style='color: #2e7d32; margin: 0.5rem 0;'>${salary_pred:,.0f}</h2>
-                            <p style='margin: 0; color: #666;'>Annual compensation</p>
+                    <div class="card">
+                      <div class="card-title">Prediction Results</div>
+                      <div class="metric-row">
+                        <div class="metric-card">
+                          <div class="metric-label">Predicted Salary (Annual)</div>
+                          <div class="metric-value salary-glow">₹{salary_pred:,.0f}</div>
+                          <div style="margin-top:6px;color:#94a3b8;font-size:0.9rem;">≈ ₹{salary_pred/12:,.0f} per month</div>
                         </div>
-                        <div class='metric-card'>
-                            <h4 style='color: #1f77b4; margin: 0;'>Salary Category</h4>
-                            <h2 style='color: #f57c00; margin: 0.5rem 0;'>{category_pred}</h2>
-                            <p style='margin: 0; color: #666;'>Market position</p>
+                        <div class="metric-card">
+                          <div class="metric-label">Category</div>
+                          <div class="metric-value category-glow">{category_pred}</div>
                         </div>
-                        <div class='metric-card'>
-                            <h4 style='color: #1f77b4; margin: 0;'>Employee Segment</h4>
-                            <h2 style='color: #7b1fa2; margin: 0.5rem 0;'>Cluster {cluster_pred}</h2>
-                            <p style='margin: 0; color: #666;'>Similar profiles</p>
+                        <div class="metric-card">
+                          <div class="metric-label">Segment</div>
+                          <div class="metric-value cluster-glow">Cluster {cluster_pred}</div>
                         </div>
+                      </div>
                     </div>
                     """, unsafe_allow_html=True)
-
-                    # Additional insights
-                    st.markdown("### 📈 Insights")
-
-                    # Salary range based on category
-                    if category_pred == "Low":
-                        range_text = "$50K - $70K"
-                        insight = "Entry-level to mid-level position"
-                    elif category_pred == "Medium":
-                        range_text = "$70K - $120K"
-                        insight = "Mid-level professional role"
-                    else:  # High
-                        range_text = "$120K+"
-                        insight = "Senior leadership or specialized role"
-
-                    st.info(f"**Salary Range:** {range_text} | **Profile Insight:** {insight}")
-
-                    # Employee profile summary
-                    st.markdown("### 👤 Profile Summary")
-                    summary_col1, summary_col2 = st.columns(2)
-
-                    with summary_col1:
-                        st.markdown(f"""
-                        - **Age:** {age} years
-                        - **Experience:** {experience} years
-                        - **Education:** {education}
-                        - **Role:** {job_role}
+                    
+                    with st.expander("What these results mean"):
+                        st.markdown("""
+                        - Predicted Salary: Estimated annual base salary in INR from a regression model trained on Age, Experience, Education, Job Role, Location, and Skills. It does not include bonuses or stock and is an approximation, not a guarantee.
+                        - Category: Salary bracket derived from the predicted salary using fixed thresholds: Low < ₹70,000; Medium ₹70,000–₹1,20,000; High > ₹1,20,000. This helps summarize the range at a glance.
+                        - Segment: An unsupervised cluster label based on experience and predicted salary (after scaling). It groups similar profiles together, e.g., early‑career, mid‑level, or senior/high‑earning cohorts. Cluster numbers are identifiers, not rankings.
                         """)
-
-                    with summary_col2:
-                        st.markdown(f"""
-                        - **Location:** {location}
-                        - **Primary Skill:** {skills}
-                        - **Market Value:** {category_pred}
-                        - **Segment:** Cluster {cluster_pred}
-                        """)
-
-                    st.markdown('</div>', unsafe_allow_html=True)
-
                 except Exception as e:
-                    st.error(f"Error making prediction: {e}")
-                    st.info("Please check that all models are properly trained and saved.")
+                    st.error(f"Error: {e}")
 
-        else:
-            # Placeholder when no prediction made
-            st.info("👈 Enter employee details and click 'Predict Salary' to see results")
+    # Graphs Section
+    st.markdown('<h3 style="text-align: center; color: white; margin-top: 3rem; margin-bottom: 2rem;">Data Visualizations</h3>', unsafe_allow_html=True)
+    
+    graph_map = {
+        'salary_distribution': ('Salary Distribution', 'outputs/salary_distribution.png'),
+        'correlation_heatmap': ('Correlation Heatmap', 'outputs/correlation_heatmap.png'),
+        'feature_importance': ('Feature Importance', 'outputs/feature_importance.png'),
+        'confusion_matrix': ('Confusion Matrix', 'outputs/confusion_matrix.png'),
+        'kmeans_elbow': ('Elbow Method', 'outputs/kmeans_elbow_plot.png'),
+        'cluster_scatter': ('Cluster Scatter', 'outputs/cluster_scatter.png')
+    }
 
-            # Show sample visualization
-            st.markdown("### 📊 Model Performance Preview")
-            st.markdown("Once you make a prediction, you'll see detailed insights and visualizations here.")
-
-    # Footer
-    st.markdown("---")
-    st.markdown("""
-    <div style='text-align: center; color: #666; font-size: 0.8rem;'>
-        Built with Streamlit • Powered by Machine Learning • Employee Salary Prediction System
-    </div>
-    """, unsafe_allow_html=True)
+    if st.session_state['show_graph']:
+        if st.button("Hide Graph", use_container_width=True):
+            st.session_state['show_graph'] = None
+            st.rerun()
+        
+        selected = st.session_state['show_graph']
+        label, path = graph_map[selected]
+        st.markdown(f"<h4 style='text-align: center; color: #38bdf8; margin-top: 2rem;'>{label}</h4>", unsafe_allow_html=True)
+        try:
+            st.image(path, use_container_width=True)
+        except:
+            st.error("Graph image not found.")
+    else:
+        keys = list(graph_map.keys())
+        for row_start in range(0, len(keys), 3):
+            cols = st.columns(3)
+            for col_idx in range(3):
+                i = row_start + col_idx
+                if i < len(keys):
+                    k = keys[i]
+                    label, _ = graph_map[k]
+                    with cols[col_idx]:
+                        if st.button(label, use_container_width=True, key=f"btn_{k}"):
+                            st.session_state['show_graph'] = k
+                            st.rerun()
 
 if __name__ == "__main__":
     main()

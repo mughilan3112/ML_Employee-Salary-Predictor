@@ -1,0 +1,354 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@400;600;700;800;900&display=swap');
+
+:root {
+    --bg-dark: #000000;
+    --card-bg: #0a0f1a;
+    --accent-glow: #38bdf8;
+    --text-primary: #f8fafc;
+    --text-secondary: #94a3b8;
+    --border-color: #0b1222;
+    --success-glow: #22c55e;
+}
+
+/* Base App Styling */
+.stApp {
+    background-color: var(--bg-dark);
+    background-image: none;
+    font-family: 'Exo', system-ui, -apple-system, "Segoe UI", Roboto, Ubuntu, Arial, sans-serif;
+}
+
+body, input, button, select, textarea {
+    font-family: 'Exo', system-ui, -apple-system, "Segoe UI", Roboto, Ubuntu, Arial, sans-serif !important;
+}
+
+html, body, .stApp {
+    accent-color: var(--accent-glow);
+}
+
+*::selection {
+    background: rgba(56, 189, 248, 0.35);
+    color: var(--text-primary);
+}
+*::-moz-selection {
+    background: rgba(56, 189, 248, 0.35);
+    color: var(--text-primary);
+}
+
+a, a:visited {
+    color: var(--accent-glow);
+    text-decoration: none;
+}
+a:hover {
+    filter: brightness(1.15);
+}
+
+.stApp { position: relative; overflow-x: hidden; }
+.stApp::before {
+    content: "";
+    position: fixed;
+    inset: -10%;
+    pointer-events: none;
+    z-index: 0;
+    background:
+      radial-gradient(700px 700px at 20% 25%, rgba(56, 189, 248, 0.08), transparent 60%),
+      radial-gradient(900px 900px at 80% 20%, rgba(167, 139, 250, 0.07), transparent 60%),
+      radial-gradient(800px 800px at 30% 85%, rgba(59, 130, 246, 0.06), transparent 60%);
+    filter: blur(18px);
+    opacity: 0.9;
+    animation: auroraShift 22s ease-in-out infinite;
+    mix-blend-mode: normal;
+}
+.stApp::after {
+    content: "";
+    position: fixed;
+    inset: 0;
+    pointer-events: none;
+    z-index: 0;
+    background-image:
+      linear-gradient(transparent 0 1px, rgba(56, 189, 248, 0.06) 1px 2px),
+      linear-gradient(90deg, transparent 0 1px, rgba(56, 189, 248, 0.06) 1px 2px);
+    background-size: 60px 60px, 60px 60px;
+    background-position: 0 0, 0 0;
+    opacity: 0.35;
+    animation: gridDrift 60s linear infinite;
+    mix-blend-mode: lighten;
+}
+.stApp > div { position: relative; z-index: 1; }
+
+@keyframes auroraShift {
+    0% { transform: translate3d(0,0,0) scale(1) rotate(0deg); }
+    25% { transform: translate3d(2%, -2%, 0) scale(1.03) rotate(2deg); }
+    50% { transform: translate3d(-1%, 1.5%, 0) scale(1.02) rotate(-1.5deg); }
+    75% { transform: translate3d(1%, -1%, 0) scale(1.03) rotate(1deg); }
+    100% { transform: translate3d(0,0,0) scale(1) rotate(0deg); }
+}
+@keyframes gridDrift {
+    0% { background-position: 0 0, 0 0; }
+    100% { background-position: 120px 180px, 180px 120px; }
+}
+
+/* Aggressively hide all Streamlit elements that might cause ghost bars */
+div[data-testid="stVerticalBlock"] > div:empty,
+div[data-testid="stVerticalBlock"] > hr {
+    display: none !important;
+}
+
+/* Remove extra padding/margin from stMarkdown wrappers that hold card divs */
+div[data-testid="stMarkdown"]:has(> div.card) {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+[data-testid="stMetric"] {
+    background: transparent !important;
+}
+
+.main-header {
+    font-size: clamp(2.25rem, 5.5vw, 3.5rem);
+    font-weight: 800;
+    color: var(--text-primary);
+    text-align: center;
+    margin-bottom: 0.5rem;
+    margin-top: 0;
+    line-height: 1.1;
+    white-space: nowrap;
+    overflow-wrap: normal;
+    word-break: normal;
+    text-shadow: 0 0 30px rgba(56, 189, 248, 0.6);
+}
+
+.sub-header {
+    font-size: 1.2rem;
+    color: var(--text-secondary);
+    text-align: center;
+    margin-bottom: 3rem;
+    text-shadow: 0 0 10px rgba(56, 189, 248, 0.25);
+}
+
+.section-title {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: var(--text-primary);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin-bottom: 1.5rem;
+    margin-top: 0.5rem;
+    text-shadow: 0 0 12px rgba(56, 189, 248, 0.25), 0 0 24px rgba(56, 189, 248, 0.12);
+}
+
+/* Card Styling - Removed redundant empty card container class if used elsewhere */
+.card {
+    background: var(--card-bg);
+    border-radius: 20px;
+    padding: 2.5rem;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.7);
+    border: 1px solid var(--border-color);
+    max-width: 700px;
+    margin: 1rem auto;
+    position: relative;
+    z-index: 1;
+}
+
+.card-title {
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: var(--text-primary);
+    margin-bottom: 2rem;
+    text-align: center;
+    border-bottom: 1px solid var(--border-color);
+    padding-bottom: 1.25rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+/* Cursor styles are handled inline in app.py */
+
+/* Input Fields */
+.stNumberInput, .stSelectbox {
+    margin-bottom: 1.5rem;
+}
+
+.stNumberInput label, .stSelectbox label {
+    color: var(--text-secondary) !important;
+    font-weight: 600 !important;
+    font-size: 0.95rem !important;
+}
+
+/* Form Inputs */
+.stNumberInput, .stSelectbox {
+    margin-bottom: 1.5rem;
+}
+
+.stNumberInput label, .stSelectbox label {
+    color: var(--text-secondary) !important;
+    font-weight: 500 !important;
+    font-size: 0.95rem !important;
+    margin-bottom: 0.5rem !important;
+}
+
+/* Metrics with Glow */
+.metric-row, .viz-container, .section-container, [data-testid="stVerticalBlock"] > div, [data-testid="stHorizontalBlock"], [data-testid="stExpander"] {
+    border: none !important;
+    box-shadow: none !important;
+    background: transparent !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+div[data-testid="stVerticalBlock"] > div:has(div.stButton) {
+    border: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+}
+
+.st-emotion-cache-1ky8h9b, .st-emotion-cache-12w0qpk {
+    border: none !important;
+    box-shadow: none !important;
+    background: transparent !important;
+}
+
+.metric-card {
+    flex: 1;
+    background: rgba(30, 41, 59, 0.5);
+    border-radius: 12px;
+    padding: 1.5rem;
+    text-align: center;
+    border: 1px solid var(--border-color);
+    transition: all 0.3s ease;
+    box-shadow: none !important;
+}
+
+.metric-card:hover {
+    border-color: var(--accent-glow);
+    transform: translateY(-5px);
+}
+
+.metric-label {
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-bottom: 0.5rem;
+}
+
+.metric-value {
+    font-size: 1.75rem;
+    font-weight: 800;
+    text-shadow: 0 0 12px rgba(56, 189, 248, 0.18);
+}
+
+.salary-glow { color: #4ade80; text-shadow: 0 0 10px rgba(74, 222, 128, 0.3); }
+.category-glow { color: #fbbf24; text-shadow: 0 0 10px rgba(251, 191, 36, 0.3); }
+.cluster-glow { color: #a78bfa; text-shadow: 0 0 10px rgba(167, 139, 250, 0.3); }
+
+/* Buttons */
+.stButton button {
+    width: auto !important;
+    padding: 0.75rem 2.5rem !important;
+    border-radius: 9999px !important;
+    font-weight: 600 !important;
+    transition: all 0.3s ease !important;
+    text-shadow:
+      0 0 6px rgba(56, 189, 248, 0.6),
+      0 0 14px rgba(56, 189, 248, 0.35);
+}
+
+.stButton button[kind="primary"] {
+    background: linear-gradient(135deg, #0ea5e9 0%, #2563eb 100%) !important;
+    border: none !important;
+    box-shadow: 0 4px 15px rgba(37, 99, 235, 0.4) !important;
+}
+
+.stButton button[kind="primary"]:hover {
+    box-shadow: 0 6px 20px rgba(37, 99, 235, 0.6) !important;
+    transform: scale(1.02);
+}
+
+.stButton { display: flex; justify-content: center; }
+[data-testid="stHorizontalBlock"] { justify-content: center !important; gap: 1.25rem !important; }
+[data-testid="stHorizontalBlock"] .stButton button { min-width: 220px; }
+
+/* Reduce top whitespace around the first block and headings */
+[data-testid="stAppViewContainer"] .main .block-container {
+    padding-top: 0 !important;
+}
+.block-container h1:first-child {
+    margin-top: 0 !important;
+}
+
+    .viz-container, .section-container, [data-testid="stVerticalBlock"] > div {
+        border: none !important;
+        box-shadow: none !important;
+        background: transparent !important;
+    }
+    
+    hr {
+        border-color: var(--border-color);
+        opacity: 0.3;
+    }
+.full-view-graph {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.graph-img {
+    border-radius: 12px;
+    box-shadow: 0 0 40px rgba(0,0,0,0.5);
+    margin: 2rem 0;
+}
+
+/* Neon typography accents */
+h1, h2, h3 {
+    text-shadow:
+      0 0 6px rgba(56, 189, 248, 0.70),
+      0 0 16px rgba(56, 189, 248, 0.45),
+      0 0 32px rgba(56, 189, 248, 0.25);
+    letter-spacing: 0.02em;
+    font-family: 'Exo', system-ui, -apple-system, "Segoe UI", Roboto, Ubuntu, Arial, sans-serif;
+}
+label, .st-emotion-cache-10trblm, .st-emotion-cache-1cypcdb, .st-emotion-cache-1nn9y40 {
+    text-shadow:
+      0 0 4px rgba(56, 189, 248, 0.55),
+      0 0 10px rgba(56, 189, 248, 0.30);
+    font-family: 'Exo', system-ui, -apple-system, "Segoe UI", Roboto, Ubuntu, Arial, sans-serif;
+}
+
+[data-testid="stNumberInput"] input,
+[data-testid="stTextInput"] input,
+[data-testid="stTextArea"] textarea,
+.stSelectbox [data-baseweb="select"],
+.stSelectbox [role="combobox"] {
+    background: var(--card-bg) !important;
+    color: var(--text-primary) !important;
+    border: 1px solid var(--border-color) !important;
+    box-shadow: none !important;
+    border-radius: 12px !important;
+}
+
+[data-testid="stNumberInput"] input::placeholder,
+[data-testid="stTextInput"] input::placeholder,
+[data-testid="stTextArea"] textarea::placeholder {
+    color: var(--text-secondary) !important;
+    opacity: 0.7 !important;
+}
+
+div[role="listbox"] {
+    background: #0b1222 !important;
+    color: var(--text-primary) !important;
+    border: 1px solid var(--border-color) !important;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.4) !important;
+    border-radius: 12px !important;
+}
+
+[data-testid="stNumberInput"] input:focus,
+[data-testid="stTextInput"] input:focus,
+[data-testid="stTextArea"] textarea:focus,
+.stSelectbox [role="combobox"]:focus {
+    outline: none !important;
+    border-color: var(--accent-glow) !important;
+    box-shadow: 0 0 0 1px var(--accent-glow) !important;
+}

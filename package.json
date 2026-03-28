@@ -1,0 +1,11 @@
+{
+  "name": "employee-salary-prediction",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Run the Streamlit app and training pipeline via npm scripts.",
+  "scripts": {
+    "start": "streamlit run app.py",
+    "dev": "streamlit run app.py",
+    "train": "python main.py"
+  }
+}
