@@ -25,7 +25,7 @@ local_css("assets/style.css")
 st.markdown("""
     <style>
     .stApp, .stApp *:not(input):not(textarea):not([contenteditable='true']) {
-        cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'><defs><radialGradient id='g' cx='50%25' cy='35%25' r='60%25'><stop offset='0%25' stop-color='%23ffd36b'/><stop offset='100%25' stop-color='%23b8860b'/></radialGradient></defs><circle cx='12' cy='12' r='10' fill='url(%23g)' stroke='%230a0a0a' stroke-width='1'/><text x='12' y='16' text-anchor='middle' font-size='12' font-weight='700' fill='%230a0a0a'>%E2%82%B9</text></svg>") 12 12, auto !important;
+        cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'><defs><radialGradient id='g' cx='50%25' cy='35%25' r='60%25'><stop offset='0%25' stop-color='%23ffd36b'/><stop offset='100%25' stop-color='%23b8860b'/></radialGradient></defs><circle cx='12' cy='12' r='10' fill='url(%23g)' stroke='%230a0a0a' stroke-width='1'/><text x='12' y='16' text-anchor='middle' font-size='12' font-weight='700' fill='%230a0a0a'>$</text></svg>") 12 12, auto !important;
     }
     </style>
 """, unsafe_allow_html=True)
@@ -74,7 +74,7 @@ components.html("""
   function spawn(x,y,vx,vy){
     var isIcon=Math.random()<0.35;
     var el=d.createElement(isIcon?'div':'div');
-    if(isIcon){el.className='mc-mini-s';el.innerHTML='&#8377;';}
+    if(isIcon){el.className='mc-mini-s';el.innerHTML='$';}
     else{el.className='mc-mini-dot';}
     el.style.left=x+'px';el.style.top=y+'px';
     el.style.position='absolute';
@@ -177,8 +177,8 @@ def main():
                       <div class="metric-row">
                         <div class="metric-card">
                           <div class="metric-label">Predicted Salary (Annual)</div>
-                          <div class="metric-value salary-glow">₹{salary_pred:,.0f}</div>
-                          <div style="margin-top:6px;color:#94a3b8;font-size:0.9rem;">≈ ₹{salary_pred/12:,.0f} per month</div>
+                          <div class="metric-value salary-glow">${salary_pred:,.0f}</div>
+                          <div style="margin-top:6px;color:#94a3b8;font-size:0.9rem;">≈ ${salary_pred/12:,.0f} per month</div>
                         </div>
                         <div class="metric-card">
                           <div class="metric-label">Category</div>
@@ -194,8 +194,8 @@ def main():
                     
                     with st.expander("What these results mean"):
                         st.markdown("""
-                        - Predicted Salary: Estimated annual base salary in INR from a regression model trained on Age, Experience, Education, Job Role, Location, and Skills. It does not include bonuses or stock and is an approximation, not a guarantee.
-                        - Category: Salary bracket derived from the predicted salary using fixed thresholds: Low < ₹70,000; Medium ₹70,000–₹1,20,000; High > ₹1,20,000. This helps summarize the range at a glance.
+                        - Predicted Salary: Estimated annual base salary in USD from a regression model trained on Age, Experience, Education, Job Role, Location, and Skills. It does not include bonuses or stock and is an approximation, not a guarantee.
+                        - Category: Salary bracket derived from the predicted salary using fixed thresholds: Low < $70,000; Medium $70,000–$1,20,000; High > $1,20,000. This helps summarize the range at a glance.
                         - Segment: An unsupervised cluster label based on experience and predicted salary (after scaling). It groups similar profiles together, e.g., early‑career, mid‑level, or senior/high‑earning cohorts. Cluster numbers are identifiers, not rankings.
                         """)
                 except Exception as e:
